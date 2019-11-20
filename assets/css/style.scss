@@ -83,18 +83,42 @@ i, em{
 h1 {
   font-weight: bold;
   font-size: 1.6em;
+  margin-bottom: 1em;
 }
 
 h2 {
   font-weight: bold;
   font-size: 1.3em;
-  margin-bottom: 0.3em;
+  margin-top: 0.3em;
 }
 
 h3 {
   display: block;
   margin: 1.2em 0 0.5em;
   font-weight: bold;
+}
+
+code {
+  display: block;
+  font-family: Courier, monospace;
+  line-height: 1.3em;
+  font-size: 0.8em;
+  margin-left: 3em;
+  overflow: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+code.language-plaintext{
+  display: inline;
+  line-height: 1em;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
 }
 
 #hero {
@@ -175,6 +199,7 @@ article{
       text-indent: 0;
       width: 1.428571429em;
       height: 1.428571429em;
+      margin-left: 0.4em;
     }
 
     a:hover{
@@ -242,6 +267,14 @@ article {
   width: 60%;
   margin-left: 40%;
   
+  h2{
+    margin-top: 1em;
+    margin-bottom: -1em;
+    width: 40%;
+    margin-left: -45%;
+    text-align: right;
+  }
+
   .footnotes{
     font-size: 0.8em;
   }

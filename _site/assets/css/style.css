@@ -27,11 +27,17 @@ p { line-height: 1.3em; text-indent: 2em; }
 
 i, em { font-style: italic; }
 
-h1 { font-weight: bold; font-size: 1.6em; }
+h1 { font-weight: bold; font-size: 1.6em; margin-bottom: 1em; }
 
-h2 { font-weight: bold; font-size: 1.3em; margin-bottom: 0.3em; }
+h2 { font-weight: bold; font-size: 1.3em; margin-top: 0.3em; }
 
 h3 { display: block; margin: 1.2em 0 0.5em; font-weight: bold; }
+
+code { display: block; font-family: Courier, monospace; line-height: 1.3em; font-size: 0.8em; margin-left: 3em; overflow: auto; margin-top: 2em; margin-bottom: 2em; }
+
+code.language-plaintext { display: inline; line-height: 1em; margin: 0; }
+
+img { max-width: 100%; display: block; margin: 1em auto; }
 
 #hero { margin-bottom: 1em; }
 #hero .big { font-family: gill-sans-nova, sans-serif; font-size: 2em; margin-bottom: 0.3em; display: block; }
@@ -48,7 +54,7 @@ h1#recent { text-align: center; font-family: gill-sans-nova, sans-serif; font-si
 
 article .footnotes { color: #C06C84; margin-top: 1em; }
 article li { margin-top: 1em; }
-article sup a:link, article sup a:hover, article sup a:active, article sup a:visited { color: #FCE8D0; background-color: #EE5789; text-decoration: none; text-shadow: initial; box-shadow: initial; font-size: 0.7em; text-align: center; display: inline-block; border-radius: 50%; margin: 0 0.2em; line-height: 1.6em; text-indent: 0; width: 1.428571429em; height: 1.428571429em; }
+article sup a:link, article sup a:hover, article sup a:active, article sup a:visited { color: #FCE8D0; background-color: #EE5789; text-decoration: none; text-shadow: initial; box-shadow: initial; font-size: 0.7em; text-align: center; display: inline-block; border-radius: 50%; margin: 0 0.2em; line-height: 1.6em; text-indent: 0; width: 1.428571429em; height: 1.428571429em; margin-left: 0.4em; }
 article sup a:hover { background-color: #C06C84; }
 
 footer p { font-weight: bold; text-indent: 0em; }
@@ -62,6 +68,7 @@ footer p { font-weight: bold; text-indent: 0em; }
   .post-container { margin-bottom: 3em; }
   header.post-meta { width: 38%; float: left; text-align: right; }
   article { display: block; width: 60%; margin-left: 40%; }
+  article h2 { margin-top: 1em; margin-bottom: -1em; width: 40%; margin-left: -45%; text-align: right; }
   article .footnotes { font-size: 0.8em; }
   footer { width: 65%; margin: 0 auto; }
   footer p { text-indent: 0em; } }
