@@ -1,0 +1,67 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after { content: ''; content: none; }
+
+q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* Reset Ends */
+html { font-family: source-serif-pro, serif; font-weight: 400; font-size: 13pt; color: #355C7D; background: #FCE8D0; }
+
+a:link, a:hover, a:active { color: #EE5789; text-decoration: none; text-shadow: 1px 1px 0 #FCE8D0, -1px 1px 0 #FCE8D0, 2px 0 0 #FCE8D0, -2px 0 0 #FCE8D0; box-shadow: inset 0 -3px 0 0 #FCE8D0, inset 0 -4px 0 0 #EE5789; }
+a:visited { color: #C06C84; }
+
+p { line-height: 1.3em; text-indent: 2em; }
+
+i, em { font-style: italic; }
+
+h1 { font-weight: bold; font-size: 1.6em; }
+
+h2 { font-weight: bold; font-size: 1.3em; margin-bottom: 0.3em; }
+
+h3 { display: block; margin: 1.2em 0 0.5em; font-weight: bold; }
+
+#hero { margin-bottom: 1em; }
+#hero .big { font-family: gill-sans-nova, sans-serif; font-size: 2em; margin-bottom: 0.3em; display: block; }
+#hero p { font-size: 1.2em; text-indent: 0em; color: #C06C84; }
+#hero a:link, #hero a:hover, #hero a:active { color: #EE5789; text-decoration: none; text-shadow: 1px 1px 0 #FCE8D0, -1px 1px 0 #FCE8D0, 2px 0 0 #FCE8D0, -2px 0 0 #FCE8D0; box-shadow: inset 0 -4px 0 0 #FCE8D0, inset 0 -6px 0 0 #EE5789; }
+#hero a:visited { color: #C06C84; }
+
+body { padding: 5%; }
+
+h1#recent { text-align: center; font-family: gill-sans-nova, sans-serif; font-size: 1.5em; display: block; margin-bottom: .75em; }
+
+.post-container { margin-bottom: 2em; }
+.post-container a:hover h2, .post-container a:active h2 { color: #355C7D; }
+
+article .footnotes { color: #C06C84; margin-top: 1em; }
+article li { margin-top: 1em; }
+article sup a:link, article sup a:hover, article sup a:active, article sup a:visited { color: #FCE8D0; background-color: #EE5789; text-decoration: none; text-shadow: initial; box-shadow: initial; font-size: 0.7em; text-align: center; display: inline-block; border-radius: 50%; margin: 0 0.2em; line-height: 1.6em; text-indent: 0; width: 1.428571429em; height: 1.428571429em; }
+article sup a:hover { background-color: #C06C84; }
+
+footer p { font-weight: bold; text-indent: 0em; }
+
+@media (min-width: 750px) { p { text-indent: 3em; }
+  .big { display: block; margin-bottom: 0.2em; font-size: 3.5em; letter-spacing: -0.05em; }
+  #hero { width: 75%; margin: 13% auto 5%; }
+  #hero p { margin-left: 0.1em; font-size: 1.5em; }
+  h1#recent { display: block; margin-bottom: 1em; }
+  #posts { width: 65%; margin: 0 auto; }
+  .post-container { margin-bottom: 3em; }
+  header.post-meta { width: 38%; float: left; text-align: right; }
+  article { display: block; width: 60%; margin-left: 40%; }
+  article .footnotes { font-size: 0.8em; }
+  footer { width: 65%; margin: 0 auto; }
+  footer p { text-indent: 0em; } }
