@@ -51,7 +51,7 @@ ul#recent_work li:last-child { margin-top: 12pt; }
 .post_container { margin-bottom: 20pt; }
 .post_container h2 { margin-bottom: 4pt; }
 .post_container h1 { margin-bottom: 11pt; text-transform: uppercase; }
-.post_container div.divider { width: 20%; height: 1pt; border-bottom: 1pt solid #414042; margin-top: 20pt; margin-left: 40%; }
+.post_container div.divider { width: 20%; height: 1pt; border-bottom: 1pt solid #414042; margin-top: 20pt; margin-bottom: 25pt; margin-left: 40%; }
 
 article { text-align: justify; text-align-last: left; letter-spacing: -0.1pt; }
 article .footnotes { color: #D069A9; font-size: 9pt; line-height: 10.8pt; margin-top: 16pt; }
