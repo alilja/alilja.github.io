@@ -16,16 +16,19 @@
 {"description":"Andrew is a user experience designer and human factors engineer based in Minneapolis.","@type":"WebPage","url":"http://localhost:4000/older-work/","headline":"Older Work","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/udq4fje.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andrew Lilja" /></head><body>
+  <link rel="stylesheet" href="https://use.typekit.net/vyv0ypb.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andrew Lilja" /></head><body>
     <main class="content" aria-label="Content">
-        <header class="post-header">
-    <h1 class="post-title">Older Work</h1>
-  </header>
-<div class="post-container">
-	<article>
-		<h2 id="virtutrace-after-action-review">VirtuTrace After-Action Review</h2>
-
-<p>VirtuTrace is my lab’s flagship simulator software. It’s built on top of <a href="https://github.com/vrjuggler/vrjuggler">VR
+        <section id="posts">
+    <h2>Older Work</h2>
+    <ul id="recent_work"><li><a href="#virtutrace-aar">VirtuTrace After-Action Review</a></li><li><a href="#build-a-meal">Build-a-Meal</a></li><li><a href="#virtutrace-physics">VirtuTrace Physics Engine Rebuild</a></li><li><a href="#tiny-projects">Tiny Projects</a></li></ul><div class="post_container">
+        <header class="post_meta">
+            <h2>2015</h2>
+            <a class="post_name" name="virtutrace-aar">
+                <h1>VirtuTrace After-Action Review</h1>
+            </a>
+        </header>
+        <article>
+            <p>VirtuTrace is my lab’s flagship simulator software. It’s built on top of <a href="https://github.com/vrjuggler/vrjuggler">VR
 Juggler</a>, which lets us run it
 on everything from a mobile phone to a
 <a href="http://en.wikipedia.org/wiki/Cave_automatic_virtual_environment">CAVE</a><sup id="fnref:fn-c6"><a href="#fn:fn-c6" class="footnote">1</a></sup>.
@@ -132,11 +135,42 @@ an improvement over the previous (lack of) interface. Ideally, I’ll have
 the opportunity to run some controlled tests with it, but I may not have
 the option before I leave in June.</p>
 
-<h2 id="build-a-meal">Build-a-Meal</h2>
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-c6">
+      <p>Ours is called the <a href="http://www.vrac.iastate.edu/facilities/c6/">C6</a> and it’s pretty cool. <a href="#fnref:fn-c6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-example">
+      <p><a href="https://www.youtube.com/watch?v=dxIPcbmo1_U&amp;t=4s">A notable example</a>. Even without dinosaurs, trying to move in 3D space with your body while using thumbsticks to control a crazy interface floating in front of you is challenging — better to let the user focus on their core goal. <a href="#fnref:fn-example" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-valve">
+      <p>When Valve <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">ported Team Fortress 2 to the Oculus Rift</a> (see pages 16-24), they found that showing the same image to each eye results in a mismatch where size and occlusion lead the brain to think it’s very near, while convergence convinces the brain that it’s actually very far away. This will quickly make people sick. <a href="#fnref:fn-valve" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-sensitivity">
+      <p>Of course, for this to be effective, the controls have to be responsive but not too touchy. <a href="#fnref:fn-sensitivity" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-dual">
+      <p>In a dual-user scenario, where a trainee is being walked through the AAR by an instructor, this is easier to solve: you simply provide an option to disable head tracking of the user with the tracking goggles on. <a href="#fnref:fn-dual" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-valve2">
+      <p>See <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">pages 25-33</a>. <a href="#fnref:fn-valve2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
-<p>There was a lot of excitement surrounding Swift — a dynamically-typed language that left behind a lot
+        </article>
+        <div class="divider"></div>
+    </div><div class="post_container">
+        <header class="post_meta">
+            <h2>2014</h2>
+            <a class="post_name" name="build-a-meal">
+                <h1>Build-a-Meal</h1>
+            </a>
+        </header>
+        <article>
+            <p>There was a lot of excitement surrounding Swift — a dynamically-typed language that left behind a lot
 of the cruft and legacy of Objective-C and dramatically reduced things
-like boilerplate code and hacky solutions<sup id="fnref:fn-caveat"><a href="#fn:fn-caveat" class="footnote">7</a></sup>. I always found Objective-C
+like boilerplate code and hacky solutions<sup id="fnref:fn-caveat"><a href="#fn:fn-caveat" class="footnote">1</a></sup>. I always found Objective-C
 confusing, so when I had the opportunity earlier this year to start
 learning Swift, I jumped on it. I began working on an app called
 Build-A-Meal (name still subject to change) which would allow the user
@@ -152,9 +186,9 @@ the app with a limited data set
 
 <p>I knew generally how I wanted it to work. It should provide a clear at-a-glance indicator of how well
 foods fit together, be easy to pick ingredients and see what goes with
-what you already have<sup id="fnref:fn-pattern"><a href="#fn:fn-pattern" class="footnote">8</a></sup>, and keep track of your previously used
+what you already have<sup id="fnref:fn-pattern"><a href="#fn:fn-pattern" class="footnote">2</a></sup>, and keep track of your previously used
 combinations. My very first thought was a giant flavor wheel that would
-be organized into the five main flavors<sup id="fnref:fn-flavors"><a href="#fn:fn-flavors" class="footnote">9</a></sup>, with foods arranged
+be organized into the five main flavors<sup id="fnref:fn-flavors"><a href="#fn:fn-flavors" class="footnote">3</a></sup>, with foods arranged
 according to how strongly they fit into a given flavor. For example a
 lemon is very sour with some bitter flavors, so it would be closer to
 the bitter side of the sour foods.</p>
@@ -201,7 +235,7 @@ food-related, like navigating the interface or finding a specific item
 buried in a list. With this in mind I consciously stayed away from <a href="https://www.visualthesaurus.com">a network model</a>.<img src="/assets/images/food/autocomplete.png" alt="" />
 This was pretty tempting: a network of relationships between food items
 seems like a home run. But I didn’t like the idea of all that panning on
-a small phone to find what I was looking for<sup id="fnref:fn-discoverability"><a href="#fn:fn-discoverability" class="footnote">10</a></sup>, nor the distinction
+a small phone to find what I was looking for<sup id="fnref:fn-discoverability"><a href="#fn:fn-discoverability" class="footnote">4</a></sup>, nor the distinction
 between the <em>search set</em> and the <em>collected set</em>. I don’t care about
 potential connections between all the items out there, I’m only
 interested in the relationship between the items I have now. The search
@@ -227,7 +261,7 @@ well it matches the other foods you have.</p>
 
 <p>I was lucky enough to have a fairly robust dataset from <a href="http://www.amazon.com/Culinary-Artistry-Andrew-Dornenburg/dp/0471287857">Culinary Artistry</a>,
 which provided a long list of foods and their associated matching
-flavors<sup id="fnref:fn-aww"><a href="#fn:fn-aww" class="footnote">11</a></sup>. When discussing my app with a friend, I mentioned this
+flavors<sup id="fnref:fn-aww"><a href="#fn:fn-aww" class="footnote">5</a></sup>. When discussing my app with a friend, I mentioned this
 one-to-many relationship, and he said that “it sounds like the flavors
 and foods are begging to talk to each other.” I took his advice and
 eliminated the distinction between <em>foods</em> and their associated
@@ -284,9 +318,37 @@ this sounds interesting and you’d like to play around with it, you can
 download a copy <a href="https://github.com/alilja/flavors">from GitHub</a>.
 Download all the sketches <a href="assets/media/food/sketches.pdf">here</a>.</p>
 
-<h2 id="virtutrace-physics-engine-rewrite">VirtuTrace Physics Engine Rewrite</h2>
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-caveat">
+      <p>In practice, this was only partly true. Swift is still tied to the Cocoa API; while it’s now much easier to work with it, the quirks and oddities of that system still exist. <a href="#fnref:fn-caveat" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-pattern">
+      <p>The usage pattern here is that you may already have the basis of a recipe, but you want to add or alter part of it. <a href="#fnref:fn-pattern" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-flavors">
+      <p>Sweet, sour, salty, bitter, and umami. <a href="#fnref:fn-flavors" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-discoverability">
+      <p>Discoverability is also reduced, because you’ll only ever be looking at things in your general neighborhood. If creativity is finding connections between seemingly disparate things, you want to have totally-out-of-left-field things show up to spark your imagination. <a href="#fnref:fn-discoverability" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-aww">
+      <p>Sadly, this means that I cannot release the app for the public because I do not own the data within it. <a href="#fnref:fn-aww" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
-<p>In our lab, we try to get insights about high-intensity, time-pressured
+        </article>
+        <div class="divider"></div>
+    </div><div class="post_container">
+        <header class="post_meta">
+            <h2>2014</h2>
+            <a class="post_name" name="virtutrace-physics">
+                <h1>VirtuTrace Physics Engine Rebuild</h1>
+            </a>
+        </header>
+        <article>
+            <p>In our lab, we try to get insights about high-intensity, time-pressured
 decisions made by people like soldiers, firefighters, and police
 officers. To do this, we use VirtuTrace, our flagship simulator software
 that runs in the <a href="http://www.vrac.iastate.edu/facilities/c6/">C6</a>, one
@@ -309,7 +371,7 @@ exists that ties together our visual rendering and object hierarchy tree
 even more time.</p>
 
 <p>I think of code refactoring as a sort of design problem. The users are the developers
-who have to read, understand, and use your API<sup id="fnref:fn-api"><a href="#fn:fn-api" class="footnote">12</a></sup> to get their job done
+who have to read, understand, and use your API<sup id="fnref:fn-api"><a href="#fn:fn-api" class="footnote">1</a></sup> to get their job done
 and the developers who have to edit your code to add a new feature or
 fix a bug. The API user’s goal could be anything your system allows (and
 in some cases, <em>doesn’t</em> allow), so a good one needs to have clear and
@@ -344,7 +406,7 @@ static unless someone <em>explicitly</em> told them not to be. This way, old
 scenes would be able to play nice with the new system, and if anyone
 ever wanted to upgrade them to a dynamic scene, they would be going out
 of their way to make that choice, as opposed to having it forced upon
-them by the design of the system<sup id="fnref:fn-staticdynamic"><a href="#fn:fn-staticdynamic" class="footnote">13</a></sup>.</p>
+them by the design of the system<sup id="fnref:fn-staticdynamic"><a href="#fn:fn-staticdynamic" class="footnote">2</a></sup>.</p>
 
 <p>The very first thing I did was find out what wasn’t necessary.
 The original, static method looked at all the objects in the scene,
@@ -360,7 +422,7 @@ things like mass, size, and starting position. The downside was that all
 the previous code that had done the math to put objects in the right
 spot had to be removed, and because of a mismatch between how positions
 were entered by the programmer and how Bullet expected them, that math
-now fell to <em>me</em><sup id="fnref:fn-linear"><a href="#fn:fn-linear" class="footnote">14</a></sup>.</p>
+now fell to <em>me</em><sup id="fnref:fn-linear"><a href="#fn:fn-linear" class="footnote">3</a></sup>.</p>
 
 <p>Here’s an example of what it looks like:</p>
 
@@ -393,7 +455,7 @@ together. With the new positioning code written, I could remove the old,
 redundant code that already existed. However, doing this would remove
 the API hooks the static scenes relied on, so I created new hooks that
 were identical in name to the old ones, but just pointed to the new
-code<sup id="fnref:fn-best"><a href="#fn:fn-best" class="footnote">15</a></sup>.</p>
+code<sup id="fnref:fn-best"><a href="#fn:fn-best" class="footnote">4</a></sup>.</p>
 
 <p>With the new code in place, I had assumed everything would work. And in
 tests, it did! Objects flying at each other would bounce off the floors
@@ -432,11 +494,36 @@ and breadcrumb trails showing how all the parts connected. And if
 developers were still confused, I made sure that my email address was
 available for them.</p>
 
-<h2 id="tiny-projects">Tiny Projects</h2>
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-api">
+      <p>Application Programming Interface; the hooks and tie-ins to your system that let developers use it for their own purposes. <a href="#fnref:fn-api" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-staticdynamic">
+      <p>One unexpected benefit of these choices was that it was easy to mix static and dynamic objects together. If you wanted to add just one dynamic thing to an old static scene, you didn’t need to rewrite all the code — just use the new dynamic API along with the old static one. <a href="#fnref:fn-staticdynamic" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-linear">
+      <p>I wound up learning almost an entire class’ worth of linear algebra for this. I let the computer handle the <a href="http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation">four-dimensional rotation matrices</a>, though. <a href="#fnref:fn-linear" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-best">
+      <p>In the end, this was the best decision I made. It meant that the physics system could live in one spot and share as much code as possible while still allowing for old code to talk to it. The inputs and outputs stayed the same, it was just the inside that changed. <a href="#fnref:fn-best" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
-<h3 id="ratebeer-api">RateBeer API</h3>
+        </article>
+        <div class="divider"></div>
+    </div><div class="post_container">
+        <header class="post_meta">
+            <h2>2013</h2>
+            <a class="post_name" name="tiny-projects">
+                <h1>Tiny Projects</h1>
+            </a>
+        </header>
+        <article>
+            <h2 id="ratebeer-api">RateBeer API</h2>
 
-<p>I started working on a beer recommendation engine<sup id="fnref:fn-kmeans"><a href="#fn:fn-kmeans" class="footnote">16</a></sup>, but quickly realized that I needed to build a robust API for
+<p>I started working on a beer recommendation engine<sup id="fnref:fn-kmeans"><a href="#fn:fn-kmeans" class="footnote">1</a></sup>, but quickly realized that I needed to build a robust API for
 extracting data from beer websites, and that such a tool didn’t exist
 yet. I settled on using the <a href="http://www.ratebeer.com">RateBeer</a> database
 because of its community ethics and open attitude toward using their
@@ -448,7 +535,7 @@ developers, along with several community contributions.</p>
 
 <p>You can check it out <a href="https://github.com/alilja/ratebeer">on GitHub</a>.</p>
 
-<h3 id="whats-their-face">What’s Their Face?</h3>
+<h2 id="whats-their-face">What’s Their Face?</h2>
 
 <p>A goofy idea turned into a weekend hack. My friends and I were arguing
 about what actors had appeared in certain movies — we could remember the
@@ -466,7 +553,7 @@ and keep everything under 200 lines of code.</p>
 easy as possible. Instead of trying to label boxes with names like
 “movie one,” I opted for a sentence-based structure, which made it quick
 and easy to figure out what the app was doing and where movie names
-should go. I figured people would likely be using it in their homes<sup id="fnref:fn-theatre"><a href="#fn:fn-theatre" class="footnote">17</a></sup>,
+should go. I figured people would likely be using it in their homes<sup id="fnref:fn-theatre"><a href="#fn:fn-theatre" class="footnote">2</a></sup>,
 and therefore would be watching a rented movie. With this in mind, the
 app automatically fills in that day’s most-rented DVD in the first spot.
 Entering a new movie will auto-fill it into the first box, and will keep
@@ -477,7 +564,7 @@ the results show the faces of the actors for quick recognition.</p>
 <p>You can play with What’s Their Face
 <a href="http://whatstheirface.herokuapp.com">here</a>.</p>
 
-<h3 id="opaline-and-libbiopacndt_py">Opaline and <code class="language-plaintext highlighter-rouge">libbiopacndt_py</code></h3>
+<h2 id="opaline-and-libbiopacndt_py">Opaline and <code class="language-plaintext highlighter-rouge">libbiopacndt_py</code></h2>
 
 <p><code class="language-plaintext highlighter-rouge">libbiopacndt_py</code>, despite having an <em>extremely</em> catchy name, is
 a fairly technical piece of software. It’s a Python API that allows for
@@ -485,7 +572,7 @@ real-time processing of physiological data provided by the
 <a href="http://www.biopac.com">BioPac</a> system. It can be used for any
 application, but right now it’s tied into Opaline, a tool designed to
 process both real-time and post-hoc physiological data to determine how
-stressed out someone is<sup id="fnref:fn-brs"><a href="#fn:fn-brs" class="footnote">18</a></sup> for usage in adaptive computing. This
+stressed out someone is<sup id="fnref:fn-brs"><a href="#fn:fn-brs" class="footnote">3</a></sup> for usage in adaptive computing. This
 research has showed some promise already, and was presented at <a href="http://www.chirpe.com/EventSessions.aspx?DISPLAYMODE=2&amp;SessionID=2674&amp;EventID=2759">I/ITSEC 2014</a>.</p>
 
 <p>You can find both <a href="https://github.com/alilja/opaline">Opaline</a> and
@@ -494,51 +581,6 @@ GitHub.</p>
 
 <div class="footnotes">
   <ol>
-    <li id="fn:fn-c6">
-      <p>Ours is called the <a href="http://www.vrac.iastate.edu/facilities/c6/">C6</a> and it’s pretty cool. <a href="#fnref:fn-c6" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-example">
-      <p><a href="https://www.youtube.com/watch?v=dxIPcbmo1_U&amp;t=4s">A notable example</a>. Even without dinosaurs, trying to move in 3D space with your body while using thumbsticks to control a crazy interface floating in front of you is challenging — better to let the user focus on their core goal. <a href="#fnref:fn-example" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-valve">
-      <p>When Valve <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">ported Team Fortress 2 to the Oculus Rift</a> (see pages 16-24), they found that showing the same image to each eye results in a mismatch where size and occlusion lead the brain to think it’s very near, while convergence convinces the brain that it’s actually very far away. This will quickly make people sick. <a href="#fnref:fn-valve" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-sensitivity">
-      <p>Of course, for this to be effective, the controls have to be responsive but not too touchy. <a href="#fnref:fn-sensitivity" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-dual">
-      <p>In a dual-user scenario, where a trainee is being walked through the AAR by an instructor, this is easier to solve: you simply provide an option to disable head tracking of the user with the tracking goggles on. <a href="#fnref:fn-dual" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-valve2">
-      <p>See <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">pages 25-33</a>. <a href="#fnref:fn-valve2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-caveat">
-      <p>In practice, this was only partly true. Swift is still tied to the Cocoa API; while it’s now much easier to work with it, the quirks and oddities of that system still exist. <a href="#fnref:fn-caveat" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-pattern">
-      <p>The usage pattern here is that you may already have the basis of a recipe, but you want to add or alter part of it. <a href="#fnref:fn-pattern" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-flavors">
-      <p>Sweet, sour, salty, bitter, and umami. <a href="#fnref:fn-flavors" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-discoverability">
-      <p>Discoverability is also reduced, because you’ll only ever be looking at things in your general neighborhood. If creativity is finding connections between seemingly disparate things, you want to have totally-out-of-left-field things show up to spark your imagination. <a href="#fnref:fn-discoverability" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-aww">
-      <p>Sadly, this means that I cannot release the app for the public because I do not own the data within it. <a href="#fnref:fn-aww" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-api">
-      <p>Application Programming Interface; the hooks and tie-ins to your system that let developers use it for their own purposes. <a href="#fnref:fn-api" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-staticdynamic">
-      <p>One unexpected benefit of these choices was that it was easy to mix static and dynamic objects together. If you wanted to add just one dynamic thing to an old static scene, you didn’t need to rewrite all the code — just use the new dynamic API along with the old static one. <a href="#fnref:fn-staticdynamic" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-linear">
-      <p>I wound up learning almost an entire class’ worth of linear algebra for this. I let the computer handle the <a href="http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation">four-dimensional rotation matrices</a>, though. <a href="#fnref:fn-linear" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:fn-best">
-      <p>In the end, this was the best decision I made. It meant that the physics system could live in one spot and share as much code as possible while still allowing for old code to talk to it. The inputs and outputs stayed the same, it was just the inside that changed. <a href="#fnref:fn-best" class="reversefootnote">&#8617;</a></p>
-    </li>
     <li id="fn:fn-kmeans">
       <p>Instead of using the usual method of basing recommendations on users who have similar tastes as you, like Netflix or Amazon, this system would parse user reviews to develop keyword-based flavor profiles for beers, and then use that information in a k-means clustering algorithm to make recommendations. <a href="#fnref:fn-kmeans" class="reversefootnote">&#8617;</a></p>
     </li>
@@ -551,9 +593,9 @@ GitHub.</p>
   </ol>
 </div>
 
-	</article>
-</div>
-<h1 id="recent"><a href="/">Back Home</a></h1>
+        </article>
+        <div class="divider"></div>
+    </div></section><h1 id="older_work"><a href="/">&#171; Back Home</a></h1>
     </main>
 </body>
 </html>

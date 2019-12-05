@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Tiny Projects | Andrew Lilja</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Tiny Projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="RateBeer API" />
+<meta property="og:description" content="RateBeer API" />
+<link rel="canonical" href="http://localhost:4000/work/old/2013/11/18/tiny-projects.html" />
+<meta property="og:url" content="http://localhost:4000/work/old/2013/11/18/tiny-projects.html" />
+<meta property="og:site_name" content="Andrew Lilja" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-11-18T10:22:34-06:00" />
+<script type="application/ld+json">
+{"description":"RateBeer API","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/work/old/2013/11/18/tiny-projects.html"},"url":"http://localhost:4000/work/old/2013/11/18/tiny-projects.html","headline":"Tiny Projects","dateModified":"2013-11-18T10:22:34-06:00","datePublished":"2013-11-18T10:22:34-06:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/vyv0ypb.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andrew Lilja" /></head><body>
+    <main class="content" aria-label="Content">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Tiny Projects</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-11-18T10:22:34-06:00" itemprop="datePublished">Nov 18, 2013
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="ratebeer-api">RateBeer API</h2>
+
+<p>I started working on a beer recommendation engine<sup id="fnref:fn-kmeans"><a href="#fn:fn-kmeans" class="footnote">1</a></sup>, but quickly realized that I needed to build a robust API for
+extracting data from beer websites, and that such a tool didn’t exist
+yet. I settled on using the <a href="http://www.ratebeer.com">RateBeer</a> database
+because of its community ethics and open attitude toward using their
+data. As my needs grew, I eventually turned my attention towards an
+exhaustive API for the website in Python. The project is now downloaded
+<a href="https://pypi.python.org/pypi/ratebeer">several hundred times every
+week</a> and has two full-time
+developers, along with several community contributions.</p>
+
+<p>You can check it out <a href="https://github.com/alilja/ratebeer">on GitHub</a>.</p>
+
+<h2 id="whats-their-face">What’s Their Face?</h2>
+
+<p>A goofy idea turned into a weekend hack. My friends and I were arguing
+about what actors had appeared in certain movies — we could remember the
+movies but not the actor’s name. I put together <a href="http://whatstheirface.herokuapp.com">What’s Their
+Face?</a> to solve this problem —
+enter two movies and it’ll tell you the actors that are common to both.
+The project was an opportunity for me to learn how to do web programming
+with Python. I chose to use <a href="http://flask.pocoo.org">Flask</a> for its
+simplicity; because it’s such a simple application, Flask allowed me to
+easily collapse the view and controller logic into a <a href="https://github.com/alilja/WhatsTheirFace/blob/master/application.py">single
+file</a>
+and keep everything under 200 lines of code.</p>
+
+<p>My goal was to make looking up movies as fast and
+easy as possible. Instead of trying to label boxes with names like
+“movie one,” I opted for a sentence-based structure, which made it quick
+and easy to figure out what the app was doing and where movie names
+should go. I figured people would likely be using it in their homes<sup id="fnref:fn-theatre"><a href="#fn:fn-theatre" class="footnote">2</a></sup>,
+and therefore would be watching a rented movie. With this in mind, the
+app automatically fills in that day’s most-rented DVD in the first spot.
+Entering a new movie will auto-fill it into the first box, and will keep
+it there until the movie is over. Finally, because this is based on the
+sense of “I know their face but not their name,” it was essential that
+the results show the faces of the actors for quick recognition.</p>
+
+<p>You can play with What’s Their Face
+<a href="http://whatstheirface.herokuapp.com">here</a>.</p>
+
+<h2 id="opaline-and-libbiopacndt_py">Opaline and <code class="language-plaintext highlighter-rouge">libbiopacndt_py</code></h2>
+
+<p><code class="language-plaintext highlighter-rouge">libbiopacndt_py</code>, despite having an <em>extremely</em> catchy name, is
+a fairly technical piece of software. It’s a Python API that allows for
+real-time processing of physiological data provided by the
+<a href="http://www.biopac.com">BioPac</a> system. It can be used for any
+application, but right now it’s tied into Opaline, a tool designed to
+process both real-time and post-hoc physiological data to determine how
+stressed out someone is<sup id="fnref:fn-brs"><a href="#fn:fn-brs" class="footnote">3</a></sup> for usage in adaptive computing. This
+research has showed some promise already, and was presented at <a href="http://www.chirpe.com/EventSessions.aspx?DISPLAYMODE=2&amp;SessionID=2674&amp;EventID=2759">I/ITSEC 2014</a>.</p>
+
+<p>You can find both <a href="https://github.com/alilja/opaline">Opaline</a> and
+<a href="https://github.com/alilja/libbiopacndt_py"><code class="language-plaintext highlighter-rouge">libbiopacndt_py</code></a> on
+GitHub.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-kmeans">
+      <p>Instead of using the usual method of basing recommendations on users who have similar tastes as you, like Netflix or Amazon, this system would parse user reviews to develop keyword-based flavor profiles for beers, and then use that information in a k-means clustering algorithm to make recommendations. <a href="#fnref:fn-kmeans" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-theatre">
+      <p>And so hopefully <em>not</em> distracting people with their bright little screens in a theatre! <a href="#fnref:fn-theatre" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-brs">
+      <p>We calculate a measure called the baroreflex sensitivity, the ratio of the elasticity of the arteries to heart rate that has showed quite a bit of promise as a low-latency, accurate method of quantifying stress. <a href="#fnref:fn-brs" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/work/old/2013/11/18/tiny-projects.html" hidden></a>
+</article>
+
+    </main>
+</body>
+</html>

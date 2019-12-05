@@ -2,7 +2,7 @@
 layout: post
 title:	Medical Device Human Factors
 date:   2019-11-19 10:22:34 -0600
-categories: work medical-devices
+categories: work medical-devices recent
 ---
 
 Since 2015, I've been working in medical devices. This highly regulated industry involves a broad range of skills and activities for UX professionals from user interviews and research to all steps of the design process to communication with internal and external groups. Because medical devices are a highly regulated industry, every step in the process is documented — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.

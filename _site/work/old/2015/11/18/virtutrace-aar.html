@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>VirtuTrace After-Action Review | Andrew Lilja</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="VirtuTrace After-Action Review" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="VirtuTrace is my lab’s flagship simulator software. It’s built on top of VR Juggler, which lets us run it on everything from a mobile phone to a CAVE1. One of its key features is the ability to combine physiological data with decision tracing data to determine how users in a simulation are making decisions and what’s influencing them. This research is two-fold: developing a better understanding of how decisions are made and figuring out how we can help improve those decisions. A valuable tool for that job is the after-action review (AAR), where participants can replay their performance in the simulation. Typical AARs are based on notes from a trainer, and if you’re lucky, some static video — here, we can provide a fully immersive playback from any angle, speed, and location. Ours is called the C6 and it’s pretty cool. &#8617;" />
+<meta property="og:description" content="VirtuTrace is my lab’s flagship simulator software. It’s built on top of VR Juggler, which lets us run it on everything from a mobile phone to a CAVE1. One of its key features is the ability to combine physiological data with decision tracing data to determine how users in a simulation are making decisions and what’s influencing them. This research is two-fold: developing a better understanding of how decisions are made and figuring out how we can help improve those decisions. A valuable tool for that job is the after-action review (AAR), where participants can replay their performance in the simulation. Typical AARs are based on notes from a trainer, and if you’re lucky, some static video — here, we can provide a fully immersive playback from any angle, speed, and location. Ours is called the C6 and it’s pretty cool. &#8617;" />
+<link rel="canonical" href="http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html" />
+<meta property="og:url" content="http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html" />
+<meta property="og:site_name" content="Andrew Lilja" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-11-18T10:22:34-06:00" />
+<script type="application/ld+json">
+{"description":"VirtuTrace is my lab’s flagship simulator software. It’s built on top of VR Juggler, which lets us run it on everything from a mobile phone to a CAVE1. One of its key features is the ability to combine physiological data with decision tracing data to determine how users in a simulation are making decisions and what’s influencing them. This research is two-fold: developing a better understanding of how decisions are made and figuring out how we can help improve those decisions. A valuable tool for that job is the after-action review (AAR), where participants can replay their performance in the simulation. Typical AARs are based on notes from a trainer, and if you’re lucky, some static video — here, we can provide a fully immersive playback from any angle, speed, and location. Ours is called the C6 and it’s pretty cool. &#8617;","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html"},"url":"http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html","headline":"VirtuTrace After-Action Review","dateModified":"2015-11-18T10:22:34-06:00","datePublished":"2015-11-18T10:22:34-06:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/vyv0ypb.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andrew Lilja" /></head><body>
+    <main class="content" aria-label="Content">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">VirtuTrace After-Action Review</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-11-18T10:22:34-06:00" itemprop="datePublished">Nov 18, 2015
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>VirtuTrace is my lab’s flagship simulator software. It’s built on top of <a href="https://github.com/vrjuggler/vrjuggler">VR
+Juggler</a>, which lets us run it
+on everything from a mobile phone to a
+<a href="http://en.wikipedia.org/wiki/Cave_automatic_virtual_environment">CAVE</a><sup id="fnref:fn-c6"><a href="#fn:fn-c6" class="footnote">1</a></sup>.
+One of its key features is the ability to combine physiological data
+with decision tracing data to determine how users in a simulation are
+making decisions and what’s influencing them. This research is two-fold:
+developing a better understanding of how decisions are made and figuring
+out how we can help improve those decisions. A valuable tool for that
+job is the <a href="http://betterevaluation.org/evaluation-options/after_action_review">after-action review
+(AAR)</a>,
+where participants can replay their performance in the simulation.
+Typical AARs are based on notes from a trainer, and if you’re lucky,
+some static video — here, we can provide a fully immersive playback from
+any angle, speed, and location.</p>
+
+<p>Building the AAR interface is challenging for two reasons: first, the relative
+complexity of actions that the user can take, and second, a lack of a
+graphical user interface (GUI) with which the user can directly
+interact. Unlike most software interfaces which allow the user to
+interact with UI elements via a mouse or finger, the display in virtual
+reality is an infinite, empty 3D space surrounding the user. There is no
+screen, only empty space to project an interface on. I briefly
+considered trying to make a 3D interface, but I decided that it would be
+too clumsy and unintuitive to navigate in<sup id="fnref:fn-example"><a href="#fn:fn-example" class="footnote">2</a></sup>, especially if the user is
+also trying to navigate the world itself.</p>
+
+<p>It turns out that rendering a UI in VR is harder than it sounds<sup id="fnref:fn-valve"><a href="#fn:fn-valve" class="footnote">3</a></sup>. Based on my research,
+I decided to limit heads-up display (HUD) information as much as
+possible, preferring to leave the user’s field of vision empty.</p>
+
+<p><img src="/assets/images/aar/camera-modes.png" alt="" /></p>
+
+<p>Instead of giving the user a series of
+buttons floating in space, I thought it would be easier to interact with
+the system via the gamepad, providing clear information about the
+current state of the system and making it very easy to switch between
+those states. This way, the user can press a button on the gamepad, see
+immediately what state they’re in, and if they made a mistake, they can
+rapidly switch to what they intended to do. This means that the
+interface has to be highly responsive but also not lock the user into
+any course of action — if they accidentally enter free camera mode, it
+should be just as easy to leave it without having to go through a
+complicated exit routine.</p>
+
+<p>Because we had just a few camera modes (free camera, locked-on, first
+person, and overhead), I decided to map each button on the lower-left
+d-pad to one of the camera modes. There’s no need to cycle through them
+or memorize a key command — just press the button and you switch modes.
+When used regularly, this quickly becomes muscle memory, but it isn’t
+fair to require the user to memorize each direction’s corresponding
+camera mode. In keeping with the need to limit on-screen GUI, a small
+icon displaying the d-pad, the camera modes, and the selected mode
+briefly appear each time a button is pressed. This gives the user enough
+information when they need it, but isn’t distracting.</p>
+
+<p><img src="/assets/images/aar/xb_controller.png" alt="The full control scheme." /></p>
+
+<p>The system also allows users to move through time: fast forward, rewind,
+play/pause, and jumping between bookmarks. Play pause was assigned to
+the start button. Only one part of the gamepad contains fully mirrored
+controls, and that’s the triggers and bumpers on the top, where the
+index fingers rest. While the bumpers are simple digital switches that
+can only be pressed or released, the triggers are analog switches that
+measure the strength of the depression. For this reason, I decided to
+use them to control the fast-forward and reverse functions. A light
+press causes a slow speed up or slow down in time, with stronger presses
+resulting in faster speeds. This allows the user to quickly find the
+general part of the timeline they’re interested in, and then reduce
+their pressure on the control to dial in the precise spot they want<sup id="fnref:fn-sensitivity"><a href="#fn:fn-sensitivity" class="footnote">4</a></sup>.
+If this is too imprecise, the user can jump between bookmarks using the
+bumpers. Bookmarks are displayed in the HUD when the user is moving
+through time, and a list can be displayed of the existing bookmarks for
+the user to jump to.</p>
+
+<p><img src="https://i.imgur.com/Bj8Fsic.gif" alt="The *body navigation* method of
+simulator movement." /></p>
+
+<p>Navigating in 3D space works the same way as in the simulator, using the
+same “body navigation” technique. The center of the floor acts as a dead
+zone, while moving outside of it causes the simulation to move in that
+direction. However, because the AAR is intended to give users more
+freedom of movement, the controller can be used as a secondary input
+method. A standard two-stick setup is used, where the left analog stick
+is used to control the movement of the user and the right stick is used
+to control the camera movement. In order to allow flight, the left stick
+moves in the direction the camera is looking: e.g., if the user is
+looking up at a 45° angle, pushing the left stick forward will cause the
+user to move up and forwards at a 45° angle.</p>
+
+<p>This dual-control model can be confusing if implemented poorly. First,
+if the user is out of the dead zone but is pushing the movement stick in
+the opposite direction, they may stand still without being aware of why.
+For this reason, when the movement stick is used, body navigation
+becomes disabled until the user takes a step in any direction. A more
+challenging problem comes in the form of dealing with the difference
+between the way the user is looking in the simulation and their usage of
+the camera-control stick<sup id="fnref:fn-dual"><a href="#fn:fn-dual" class="footnote">5</a></sup>. Valve also had this problem<sup id="fnref:fn-valve2"><a href="#fn:fn-valve2" class="footnote">6</a></sup>, and their
+insights were invaluable. I wound up adopting their <em>input mode one</em>
+solution: the sticks control your body, and the head tracker controls
+your head.</p>
+
+<p>This system is still in the testing phase, but it already appears to be
+an improvement over the previous (lack of) interface. Ideally, I’ll have
+the opportunity to run some controlled tests with it, but I may not have
+the option before I leave in June.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn-c6">
+      <p>Ours is called the <a href="http://www.vrac.iastate.edu/facilities/c6/">C6</a> and it’s pretty cool. <a href="#fnref:fn-c6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-example">
+      <p><a href="https://www.youtube.com/watch?v=dxIPcbmo1_U&amp;t=4s">A notable example</a>. Even without dinosaurs, trying to move in 3D space with your body while using thumbsticks to control a crazy interface floating in front of you is challenging — better to let the user focus on their core goal. <a href="#fnref:fn-example" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-valve">
+      <p>When Valve <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">ported Team Fortress 2 to the Oculus Rift</a> (see pages 16-24), they found that showing the same image to each eye results in a mismatch where size and occlusion lead the brain to think it’s very near, while convergence convinces the brain that it’s actually very far away. This will quickly make people sick. <a href="#fnref:fn-valve" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-sensitivity">
+      <p>Of course, for this to be effective, the controls have to be responsive but not too touchy. <a href="#fnref:fn-sensitivity" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-dual">
+      <p>In a dual-user scenario, where a trainee is being walked through the AAR by an instructor, this is easier to solve: you simply provide an option to disable head tracking of the user with the tracking goggles on. <a href="#fnref:fn-dual" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-valve2">
+      <p>See <a href="http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf">pages 25-33</a>. <a href="#fnref:fn-valve2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/work/old/2015/11/18/virtutrace-aar.html" hidden></a>
+</article>
+
+    </main>
+</body>
+</html>

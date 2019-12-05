@@ -1,28 +1,11 @@
 ---
-layout: page
-title: Older Work
-permalink: /older-work/
----
+layout: post
+title:	Tiny Projects
+date:   2013-11-18 10:22:34 -0600
+categories: work old
+--- 
 
-# VirtuTrace After-Action Review
-
-
-
-
-
-# Build-a-Meal
-
-
-
-
-# VirtuTrace Physics Engine Rewrite
-
-
-
-# Tiny Projects
-
-
-### RateBeer API
+## RateBeer API
 
 I started working on a beer recommendation engine[^fn-kmeans], but quickly realized that I needed to build a robust API for
 extracting data from beer websites, and that such a tool didn't exist
@@ -36,7 +19,7 @@ developers, along with several community contributions.
 
 You can check it out [on GitHub](https://github.com/alilja/ratebeer).
 
-### What's Their Face?
+## What's Their Face?
 
 A goofy idea turned into a weekend hack. My friends and I were arguing
 about what actors had appeared in certain movies — we could remember the
@@ -65,7 +48,7 @@ the results show the faces of the actors for quick recognition.
 You can play with What's Their Face
 [here](http://whatstheirface.herokuapp.com).
 
-### Opaline and `libbiopacndt_py`
+## Opaline and `libbiopacndt_py`
 
 `libbiopacndt_py`, despite having an *extremely* catchy name, is
 a fairly technical piece of software. It's a Python API that allows for
@@ -86,4 +69,3 @@ GitHub.
 
 [^fn-brs]: We calculate a measure called the baroreflex sensitivity, the ratio of the elasticity of the arteries to heart rate that has showed quite a bit of promise as a low-latency, accurate method of quantifying stress.
 
-[^fn-c6]: Ours is called the [C6](http://www.vrac.iastate.edu/facilities/c6/) and it's pretty cool.

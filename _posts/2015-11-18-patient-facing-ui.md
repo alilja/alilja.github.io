@@ -1,9 +1,9 @@
 ---
 layout: post
 title:	Patient-Facing UI Development
-date:   2019-11-18 10:22:34 -0600
-categories: work medical-devices
----
+date:   2015-11-18 10:22:34 -0600
+categories: work medical-devices recent
+--- 
 
 In 2015, I was brought onboard at a large medical device company to help them design their next-generation therapy controller used by patients. The company was replacing their outdated, custom hardware with off-the-shelf touchscreen devices, and needed all the functionality of their existing controller ported to their new touchscreen application. 
 

@@ -1,26 +1,564 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-20T16:08:04-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrew Lilja</title><subtitle>Andrew is a user experience designer and human factors engineer based in Minneapolis.</subtitle><entry><title type="html">Medical Device Human Factors</title><link href="http://localhost:4000/work/medical-devices/2019/11/19/medical-devices.html" rel="alternate" type="text/html" title="Medical Device Human Factors" /><published>2019-11-19T10:22:34-06:00</published><updated>2019-11-19T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/2019/11/19/medical-devices</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/2019/11/19/medical-devices.html">&lt;p&gt;Since 2015, I’ve been working in medical devices. This highly regulated industry requires a broad range of skills and activities for UX professionals, typically culminating in a submission document to the FDA and follow-up audits to defend claims and design decisions. It is essential that all UI decisions can be proven to reduce harm and make the system easier to use — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-05T15:32:06-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andrew Lilja</title><subtitle>Andrew is a user experience designer and human factors engineer based in Minneapolis.</subtitle><entry><title type="html">Medical Device Human Factors</title><link href="http://localhost:4000/work/medical-devices/recent/2019/11/19/medical-devices.html" rel="alternate" type="text/html" title="Medical Device Human Factors" /><published>2019-11-19T10:22:34-06:00</published><updated>2019-11-19T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/recent/2019/11/19/medical-devices</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/recent/2019/11/19/medical-devices.html">&lt;p&gt;Since 2015, I’ve been working in medical devices. This highly regulated industry involves a broad range of skills and activities for UX professionals from user interviews and research to all steps of the design process to communication with internal and external groups. Because medical devices are a highly regulated industry, every step in the process is documented — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.&lt;/p&gt;
 
-&lt;p&gt;Modern medical devices are incredibly powerful and complex — a pacemaker can tell the difference between a dangerous heart rate and the normal change in rate associated with exercise and respond accordingly, for example — but with these benefits come the risk of harm to both patients and clinician. An essential part of the design process is testing to ensure that the tools built are not only effective and easy to use, but easy to use &lt;em&gt;safely&lt;/em&gt; and hard to cause harm with. This is done in two phases: first, the &lt;em&gt;formative&lt;/em&gt; process, where the initial design is created, tested, and iterated on; second, the &lt;em&gt;summative&lt;/em&gt;, where you do rigorous testing to demonstrate to a regulatory body (like the FDA in the USA or TUV in Europe) that your design is safe and all potential sources of harm have been minimized as much as possible.&lt;/p&gt;
+&lt;p&gt;Modern medical devices are incredibly powerful and complex — a pacemaker can tell the difference between a dangerous heart rate and the normal change in rate associated with exercise and respond accordingly, for example — and as a result no single person or team can be wholly responsible for developing one. Collaboration with an organization is essential, and sometimes this means that groups with clearly business cases — like software development — can get more recognition than the UX teams. Advocating for design and demonstrating its importance early on the development process is a critical responsibility for a human factors practitioner.&lt;/p&gt;
 
-&lt;p&gt;I like to think of the two processes as &lt;em&gt;designing what the users need&lt;/em&gt; and &lt;em&gt;proving to regulatory bodies you made it safe.&lt;/em&gt; I have been extensively involved in both.&lt;/p&gt;</content><author><name></name></author><summary type="html">Since 2015, I’ve been working in medical devices. This highly regulated industry requires a broad range of skills and activities for UX professionals, typically culminating in a submission document to the FDA and follow-up audits to defend claims and design decisions. It is essential that all UI decisions can be proven to reduce harm and make the system easier to use — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.</summary></entry><entry><title type="html">Patient-Facing UI Development</title><link href="http://localhost:4000/work/medical-devices/2019/11/18/patient-facing-ui.html" rel="alternate" type="text/html" title="Patient-Facing UI Development" /><published>2019-11-18T10:22:34-06:00</published><updated>2019-11-18T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/2019/11/18/patient-facing-ui</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/2019/11/18/patient-facing-ui.html">&lt;p&gt;A large medical device manufacturer provides a tool that allows patients to control their own therapy via a small hand-held controller. I was responsible for designing and testing the new touchscreen-based software on the replacement controller in the formative phase. The nature of the patient population required not just a highly specialized design, but uniquely rigorous testing to meet their wide range of needs. This took place in several sites in the United States and Europe with more than 50 patients over the course of two years, resulting in a final product that fits both the business and customer needs: a future-proofed platform that can be updated and allows patients to have necessary, extensive, and clinician-customizable control over their therapy.&lt;/p&gt;
+&lt;p&gt;An essential part of the design process is testing to ensure that the tools built are not only effective and easy to use, but easy to use &lt;em&gt;safely&lt;/em&gt; and hard to cause harm with. This is done in two phases: first, the &lt;em&gt;formative&lt;/em&gt; process, where the initial design is created, tested, and iterated on; second, the &lt;em&gt;summative&lt;/em&gt;, where you do rigorous testing to demonstrate to a regulatory body (like the FDA in the USA or TUV in Europe) that your design is safe and all potential sources of harm have been minimized as much as possible.&lt;/p&gt;
 
-&lt;p&gt;After the design work was done, I needed to hand the project over to another employee. They needed to be brought up to speed about the steps the project had taken, why decisions had been made, and develop a deep enough understanding of the system and its design legacy that they could take it through validation testing. I worked with this employee to educate and train them on the product and create a document that could be passed to new employees to bring them up to speed quickly and efficiently.&lt;/p&gt;
+&lt;p&gt;I like to think of the two processes as &lt;em&gt;learning what users need&lt;/em&gt; and &lt;em&gt;proving you made it safe.&lt;/em&gt; I have been extensively involved in both.&lt;/p&gt;</content><author><name></name></author><summary type="html">Since 2015, I’ve been working in medical devices. This highly regulated industry involves a broad range of skills and activities for UX professionals from user interviews and research to all steps of the design process to communication with internal and external groups. Because medical devices are a highly regulated industry, every step in the process is documented — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.</summary></entry><entry><title type="html">Summative Studies</title><link href="http://localhost:4000/work/medical-devices/recent/2019/11/17/summative-studies.html" rel="alternate" type="text/html" title="Summative Studies" /><published>2019-11-17T10:22:34-06:00</published><updated>2019-11-17T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/recent/2019/11/17/summative-studies</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/recent/2019/11/17/summative-studies.html">&lt;p&gt;A large medical device manufacturer needed to replace an aging fleet of clinician-operated tools used to program lifesaving implantable devices. The existing tool was no longer being manufactured, and the company wanted to move away from custom-made hardware towards more flexible, off-the-shelf devices like the iPad. The new programmer needed to do everything the old one had, and be future-proofed to work with new devices in the future with an unknown range of features and improvements.&lt;/p&gt;
 
-&lt;p&gt;This project required collaboration between software developers, other designers, project managers, safety engineers, system engineers, management, legal, and regulatory — as well as cooperating with other human factor engineers working on projects that ours leveraged from, like hardware development or software design libraries.&lt;/p&gt;</content><author><name></name></author><summary type="html">A large medical device manufacturer provides a tool that allows patients to control their own therapy via a small hand-held controller. I was responsible for designing and testing the new touchscreen-based software on the replacement controller in the formative phase. The nature of the patient population required not just a highly specialized design, but uniquely rigorous testing to meet their wide range of needs. This took place in several sites in the United States and Europe with more than 50 patients over the course of two years, resulting in a final product that fits both the business and customer needs: a future-proofed platform that can be updated and allows patients to have necessary, extensive, and clinician-customizable control over their therapy.</summary></entry><entry><title type="html">Summative Studies</title><link href="http://localhost:4000/work/medical-devices/2019/11/17/summative-studies.html" rel="alternate" type="text/html" title="Summative Studies" /><published>2019-11-17T10:22:34-06:00</published><updated>2019-11-17T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/2019/11/17/summative-studies</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/2019/11/17/summative-studies.html">&lt;p&gt;A large medical device manufacturer found itself needing to replace a tool used to test and program lifesaving implantable devices. The new tool needed to be familiar enough that users with more than 20 years of experience could transition easily and forward-looking so new new features and technologies in future devices could be easily integrated. The original tool was a custom-built hardware solution that had reached end of life and was no longer being manufactured. I was brought in after the system had been developed to design, write, and execute its highly accelerated summative testing. Normal validation studies&lt;sup id=&quot;fnref:validation&quot;&gt;&lt;a href=&quot;#fn:validation&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; take place over months or years — I was tasked with running six in 16 months.&lt;/p&gt;
+&lt;p&gt;I was brought onboard after the initial version was completed. My job was to develop, execute, and document the summative testing studies needed to prove to the FDA that the new programmer was a safe and effective replacement. The timeline for the project was highly accelerated, with six studies in 15 months.&lt;/p&gt;
 
-&lt;p&gt;In order to write a good test script, I had to quickly and fully learn what the tool could do across a range of devices. I had to know what a user would do and why, what kind of mistakes they might make and how they could solve them, and what patient conditions could cause the user to make different choices than expected. Each test brought with it new products and features, requiring me to learn in-depth knowledge for every test.&lt;/p&gt;
+&lt;p&gt;Designing a summative study is challenging in both its rigor and its breadth. Features that have been defined as safety-critical need to thoroughly tested in environments that are close to real-world settings as possible, and a poorly designed task can lead to poor data, an FDA rejection, and a development timeline set back by six months or more.&lt;/p&gt;
 
-&lt;p&gt;Next, I had to develop, write, and edit a testing protocol that would allow us to observe use of the system in a simulated environment, matching the users’ expected flow and routine&lt;sup id=&quot;fnref:implant&quot;&gt;&lt;a href=&quot;#fn:implant&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. When the scripts were finished, I developed the simulations we used, recruited, scheduled, and arranged travel for our participants, executed the test protocols, and worked with a small team to write our test results for submission to the regulatory bodies. To do this effectively, I learned how the implants themselves worked, all elements of the software, and even the physiology of the organ.&lt;/p&gt;
+&lt;p&gt;The first thing I needed to do with each study was understand what features I was using. Without knowing how worked, what they were used for, and what could commonly go wrong, I wouldn’t be capable of writing an effective study that actually measured a user’s ability to safely and correctly use that feature. I reached out to existing users of a range of skill levels to get a baseline understanding of how it was being used in the field&lt;sup id=&quot;fnref:field_use&quot;&gt;&lt;a href=&quot;#fn:field_use&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and used that information to begin developing a protocol.&lt;/p&gt;
 
-&lt;p&gt;The nature of the project meant that incredibly rigorous testing was required across a huge range of users. We performed dry runs (that is — tests of our &lt;em&gt;protocol&lt;/em&gt; to make sure it was testing what we needed it to) with 20 participants, and performed the actual validation testing with more than 150 real-world users. The product was released in 2019, and the regulatory agency required no changes to our work.&lt;/p&gt;
+&lt;p&gt;Each task required a unique, carefully-described success criteria. In order to work with as many users as we needed, studies were often carried out by multiple moderators at a time. This meant that the protocols had to be clear and usable by someone without my level of knowledge, and critically, that the moderator could correctly assess whether or not a user had correctly performed the task. This meant identifying what the intended outcome of a task should be and describing what it meant to accomplish that task safely — if the user had the right result but did it in an unsafe way, that was a failure of the task.&lt;/p&gt;
+
+&lt;p&gt;After each study had concluded, the data needed to be analyzed and summarized into two forms: one in an official document submitted to the FDA, and one for internal usage about any usability or safety issues that needed to be fixed. In order to meet development timelines, this often meant that 30 or 45 participant’s data needed to be analyzed, summarized, and have recommendations developed in as little as a week.&lt;/p&gt;
+
+&lt;p&gt;In early 2019, the new tool was approved for usage by the FDA. That same year, I worked on formative studies preparing for the next round of validation testing to take place in 2020.&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:validation&quot;&gt;
-      &lt;p&gt;Validation testing is just one way to perform a summative. There are many methods that can be used for the summative stage of the process, like demonstrating similarity of the current product to an existing one. For a brand-new tool with nothing to compare against, everything must be tested. &lt;a href=&quot;#fnref:validation&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:implant&quot;&gt;
-      &lt;p&gt;For example, if we were testing the implant of the device, we needed to make sure that all steps of our testing matched exactly what the user would normally do in the field. &lt;a href=&quot;#fnref:implant&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:field_use&quot;&gt;
+      &lt;p&gt;As we would learn, there could be a large gap between how a feature was used in the field and how it was &lt;em&gt;supposed&lt;/em&gt; to be used. &lt;a href=&quot;#fnref:field_use&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">A large medical device manufacturer found itself needing to replace a tool used to test and program lifesaving implantable devices. The new tool needed to be familiar enough that users with more than 20 years of experience could transition easily and forward-looking so new new features and technologies in future devices could be easily integrated. The original tool was a custom-built hardware solution that had reached end of life and was no longer being manufactured. I was brought in after the system had been developed to design, write, and execute its highly accelerated summative testing. Normal validation studies1 take place over months or years — I was tasked with running six in 16 months. Validation testing is just one way to perform a summative. There are many methods that can be used for the summative stage of the process, like demonstrating similarity of the current product to an existing one. For a brand-new tool with nothing to compare against, everything must be tested. &amp;#8617;</summary></entry><entry><title type="html">Medical Technical Writing</title><link href="http://localhost:4000/work/medical-devices/2019/11/16/medical-technical.html" rel="alternate" type="text/html" title="Medical Technical Writing" /><published>2019-11-16T10:22:34-06:00</published><updated>2019-11-16T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/2019/11/16/medical-technical</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/2019/11/16/medical-technical.html">&lt;p&gt;If you can’t explain it to a five-year-old, you don’t really understand something. The acid test of this is technical writing, where one must clearly and effectively communicate how a system works to an audience with an &lt;a href=&quot;https://www.nngroup.com/articles/computer-skill-levels/&quot;&gt;incredible range of proficiency and knowledge&lt;/a&gt;. I was brought in to write the system usage and implant instructions for a startup’s new medical device. This involved explaining how the system worked for both clinicians and patients, and how to safely implant and maintain it.&lt;/p&gt;</content><author><name></name></author><summary type="html">If you can’t explain it to a five-year-old, you don’t really understand something. The acid test of this is technical writing, where one must clearly and effectively communicate how a system works to an audience with an incredible range of proficiency and knowledge. I was brought in to write the system usage and implant instructions for a startup’s new medical device. This involved explaining how the system worked for both clinicians and patients, and how to safely implant and maintain it.</summary></entry><entry><title type="html">The Existing Tool Project</title><link href="http://localhost:4000/work/medical-devices/2019/11/16/existing-tool.html" rel="alternate" type="text/html" title="The Existing Tool Project" /><published>2019-11-16T10:22:34-06:00</published><updated>2019-11-16T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/2019/11/16/existing-tool</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/2019/11/16/existing-tool.html">&lt;p&gt;A large medical device manufacturer purchased a smaller company and wanted to incorporate their product line into their new software and hardware platform. This involved taking existing software running on very old hardware and updating it for a modern touchscreen interface and the new hardware — and in order to do this correctly, we needed to understand the current limitations and problems and how well our new tool solved them. I am running a number of formative studies for fact-finding and prototype testing, presented the results to the larger project team, argued for the best design, and compromised with design and development constraints to successfully integrate the product into the existing platform.&lt;/p&gt;</content><author><name></name></author><summary type="html">A large medical device manufacturer purchased a smaller company and wanted to incorporate their product line into their new software and hardware platform. This involved taking existing software running on very old hardware and updating it for a modern touchscreen interface and the new hardware — and in order to do this correctly, we needed to understand the current limitations and problems and how well our new tool solved them. I am running a number of formative studies for fact-finding and prototype testing, presented the results to the larger project team, argued for the best design, and compromised with design and development constraints to successfully integrate the product into the existing platform.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">A large medical device manufacturer needed to replace an aging fleet of clinician-operated tools used to program lifesaving implantable devices. The existing tool was no longer being manufactured, and the company wanted to move away from custom-made hardware towards more flexible, off-the-shelf devices like the iPad. The new programmer needed to do everything the old one had, and be future-proofed to work with new devices in the future with an unknown range of features and improvements.</summary></entry><entry><title type="html">The Existing Tool Project</title><link href="http://localhost:4000/work/medical-devices/recent/2019/11/16/existing-tool.html" rel="alternate" type="text/html" title="The Existing Tool Project" /><published>2019-11-16T10:22:34-06:00</published><updated>2019-11-16T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/recent/2019/11/16/existing-tool</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/recent/2019/11/16/existing-tool.html">&lt;p&gt;A large medical device manufacturer purchased a smaller company and wanted to incorporate their product line into their new software and hardware platform. This involved taking existing software running on very old hardware and updating it for a modern touchscreen interface and the new hardware — and in order to do this correctly, we needed to understand the current limitations and problems and how well our new tool solved them. I am running a number of formative studies for fact-finding and prototype testing, presented the results to the larger project team, argued for the best design, and compromised with design and development constraints to successfully integrate the product into the existing platform.&lt;/p&gt;</content><author><name></name></author><summary type="html">A large medical device manufacturer purchased a smaller company and wanted to incorporate their product line into their new software and hardware platform. This involved taking existing software running on very old hardware and updating it for a modern touchscreen interface and the new hardware — and in order to do this correctly, we needed to understand the current limitations and problems and how well our new tool solved them. I am running a number of formative studies for fact-finding and prototype testing, presented the results to the larger project team, argued for the best design, and compromised with design and development constraints to successfully integrate the product into the existing platform.</summary></entry><entry><title type="html">Medical Technical Writing</title><link href="http://localhost:4000/work/medical-devices/recent/2017/11/16/medical-technical.html" rel="alternate" type="text/html" title="Medical Technical Writing" /><published>2017-11-16T10:22:34-06:00</published><updated>2017-11-16T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/recent/2017/11/16/medical-technical</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/recent/2017/11/16/medical-technical.html">&lt;p&gt;A therapy is useless if the patient can’t use it — and despite this, many medical manuals are complex and hard to understand. User populations have a &lt;a href=&quot;https://www.nngroup.com/articles/computer-skill-levels/&quot;&gt;wide range of proficiency and knowledge&lt;/a&gt; with computers, so documentation must be clear and concise with little room for misinterpretation — what counts as a small change for one patient may be catastrophic for another.&lt;/p&gt;
+
+&lt;p&gt;In 2017, I was brought into an existing rewrite of two medical device manuals, one for the clinician’s usage that described implantation and initial setup, and one for the user that described how the system worked and how to use it safely and effectively.&lt;/p&gt;</content><author><name></name></author><summary type="html">A therapy is useless if the patient can’t use it — and despite this, many medical manuals are complex and hard to understand. User populations have a wide range of proficiency and knowledge with computers, so documentation must be clear and concise with little room for misinterpretation — what counts as a small change for one patient may be catastrophic for another.</summary></entry><entry><title type="html">VirtuTrace After-Action Review</title><link href="http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html" rel="alternate" type="text/html" title="VirtuTrace After-Action Review" /><published>2015-11-18T10:22:34-06:00</published><updated>2015-11-18T10:22:34-06:00</updated><id>http://localhost:4000/work/old/2015/11/18/virtutrace-aar</id><content type="html" xml:base="http://localhost:4000/work/old/2015/11/18/virtutrace-aar.html">&lt;p&gt;VirtuTrace is my lab’s flagship simulator software. It’s built on top of &lt;a href=&quot;https://github.com/vrjuggler/vrjuggler&quot;&gt;VR
+Juggler&lt;/a&gt;, which lets us run it
+on everything from a mobile phone to a
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Cave_automatic_virtual_environment&quot;&gt;CAVE&lt;/a&gt;&lt;sup id=&quot;fnref:fn-c6&quot;&gt;&lt;a href=&quot;#fn:fn-c6&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+One of its key features is the ability to combine physiological data
+with decision tracing data to determine how users in a simulation are
+making decisions and what’s influencing them. This research is two-fold:
+developing a better understanding of how decisions are made and figuring
+out how we can help improve those decisions. A valuable tool for that
+job is the &lt;a href=&quot;http://betterevaluation.org/evaluation-options/after_action_review&quot;&gt;after-action review
+(AAR)&lt;/a&gt;,
+where participants can replay their performance in the simulation.
+Typical AARs are based on notes from a trainer, and if you’re lucky,
+some static video — here, we can provide a fully immersive playback from
+any angle, speed, and location.&lt;/p&gt;
+
+&lt;p&gt;Building the AAR interface is challenging for two reasons: first, the relative
+complexity of actions that the user can take, and second, a lack of a
+graphical user interface (GUI) with which the user can directly
+interact. Unlike most software interfaces which allow the user to
+interact with UI elements via a mouse or finger, the display in virtual
+reality is an infinite, empty 3D space surrounding the user. There is no
+screen, only empty space to project an interface on. I briefly
+considered trying to make a 3D interface, but I decided that it would be
+too clumsy and unintuitive to navigate in&lt;sup id=&quot;fnref:fn-example&quot;&gt;&lt;a href=&quot;#fn:fn-example&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, especially if the user is
+also trying to navigate the world itself.&lt;/p&gt;
+
+&lt;p&gt;It turns out that rendering a UI in VR is harder than it sounds&lt;sup id=&quot;fnref:fn-valve&quot;&gt;&lt;a href=&quot;#fn:fn-valve&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Based on my research,
+I decided to limit heads-up display (HUD) information as much as
+possible, preferring to leave the user’s field of vision empty.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/aar/camera-modes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of giving the user a series of
+buttons floating in space, I thought it would be easier to interact with
+the system via the gamepad, providing clear information about the
+current state of the system and making it very easy to switch between
+those states. This way, the user can press a button on the gamepad, see
+immediately what state they’re in, and if they made a mistake, they can
+rapidly switch to what they intended to do. This means that the
+interface has to be highly responsive but also not lock the user into
+any course of action — if they accidentally enter free camera mode, it
+should be just as easy to leave it without having to go through a
+complicated exit routine.&lt;/p&gt;
+
+&lt;p&gt;Because we had just a few camera modes (free camera, locked-on, first
+person, and overhead), I decided to map each button on the lower-left
+d-pad to one of the camera modes. There’s no need to cycle through them
+or memorize a key command — just press the button and you switch modes.
+When used regularly, this quickly becomes muscle memory, but it isn’t
+fair to require the user to memorize each direction’s corresponding
+camera mode. In keeping with the need to limit on-screen GUI, a small
+icon displaying the d-pad, the camera modes, and the selected mode
+briefly appear each time a button is pressed. This gives the user enough
+information when they need it, but isn’t distracting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/aar/xb_controller.png&quot; alt=&quot;The full control scheme.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The system also allows users to move through time: fast forward, rewind,
+play/pause, and jumping between bookmarks. Play pause was assigned to
+the start button. Only one part of the gamepad contains fully mirrored
+controls, and that’s the triggers and bumpers on the top, where the
+index fingers rest. While the bumpers are simple digital switches that
+can only be pressed or released, the triggers are analog switches that
+measure the strength of the depression. For this reason, I decided to
+use them to control the fast-forward and reverse functions. A light
+press causes a slow speed up or slow down in time, with stronger presses
+resulting in faster speeds. This allows the user to quickly find the
+general part of the timeline they’re interested in, and then reduce
+their pressure on the control to dial in the precise spot they want&lt;sup id=&quot;fnref:fn-sensitivity&quot;&gt;&lt;a href=&quot;#fn:fn-sensitivity&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.
+If this is too imprecise, the user can jump between bookmarks using the
+bumpers. Bookmarks are displayed in the HUD when the user is moving
+through time, and a list can be displayed of the existing bookmarks for
+the user to jump to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Bj8Fsic.gif&quot; alt=&quot;The *body navigation* method of
+simulator movement.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigating in 3D space works the same way as in the simulator, using the
+same “body navigation” technique. The center of the floor acts as a dead
+zone, while moving outside of it causes the simulation to move in that
+direction. However, because the AAR is intended to give users more
+freedom of movement, the controller can be used as a secondary input
+method. A standard two-stick setup is used, where the left analog stick
+is used to control the movement of the user and the right stick is used
+to control the camera movement. In order to allow flight, the left stick
+moves in the direction the camera is looking: e.g., if the user is
+looking up at a 45° angle, pushing the left stick forward will cause the
+user to move up and forwards at a 45° angle.&lt;/p&gt;
+
+&lt;p&gt;This dual-control model can be confusing if implemented poorly. First,
+if the user is out of the dead zone but is pushing the movement stick in
+the opposite direction, they may stand still without being aware of why.
+For this reason, when the movement stick is used, body navigation
+becomes disabled until the user takes a step in any direction. A more
+challenging problem comes in the form of dealing with the difference
+between the way the user is looking in the simulation and their usage of
+the camera-control stick&lt;sup id=&quot;fnref:fn-dual&quot;&gt;&lt;a href=&quot;#fn:fn-dual&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. Valve also had this problem&lt;sup id=&quot;fnref:fn-valve2&quot;&gt;&lt;a href=&quot;#fn:fn-valve2&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;, and their
+insights were invaluable. I wound up adopting their &lt;em&gt;input mode one&lt;/em&gt;
+solution: the sticks control your body, and the head tracker controls
+your head.&lt;/p&gt;
+
+&lt;p&gt;This system is still in the testing phase, but it already appears to be
+an improvement over the previous (lack of) interface. Ideally, I’ll have
+the opportunity to run some controlled tests with it, but I may not have
+the option before I leave in June.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn-c6&quot;&gt;
+      &lt;p&gt;Ours is called the &lt;a href=&quot;http://www.vrac.iastate.edu/facilities/c6/&quot;&gt;C6&lt;/a&gt; and it’s pretty cool. &lt;a href=&quot;#fnref:fn-c6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-example&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dxIPcbmo1_U&amp;amp;t=4s&quot;&gt;A notable example&lt;/a&gt;. Even without dinosaurs, trying to move in 3D space with your body while using thumbsticks to control a crazy interface floating in front of you is challenging — better to let the user focus on their core goal. &lt;a href=&quot;#fnref:fn-example&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-valve&quot;&gt;
+      &lt;p&gt;When Valve &lt;a href=&quot;http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf&quot;&gt;ported Team Fortress 2 to the Oculus Rift&lt;/a&gt; (see pages 16-24), they found that showing the same image to each eye results in a mismatch where size and occlusion lead the brain to think it’s very near, while convergence convinces the brain that it’s actually very far away. This will quickly make people sick. &lt;a href=&quot;#fnref:fn-valve&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-sensitivity&quot;&gt;
+      &lt;p&gt;Of course, for this to be effective, the controls have to be responsive but not too touchy. &lt;a href=&quot;#fnref:fn-sensitivity&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-dual&quot;&gt;
+      &lt;p&gt;In a dual-user scenario, where a trainee is being walked through the AAR by an instructor, this is easier to solve: you simply provide an option to disable head tracking of the user with the tracking goggles on. &lt;a href=&quot;#fnref:fn-dual&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-valve2&quot;&gt;
+      &lt;p&gt;See &lt;a href=&quot;http://media.steampowered.com/apps/valve/2013/Team_Fortress_in_VR_GDC.pdf&quot;&gt;pages 25-33&lt;/a&gt;. &lt;a href=&quot;#fnref:fn-valve2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">VirtuTrace is my lab’s flagship simulator software. It’s built on top of VR Juggler, which lets us run it on everything from a mobile phone to a CAVE1. One of its key features is the ability to combine physiological data with decision tracing data to determine how users in a simulation are making decisions and what’s influencing them. This research is two-fold: developing a better understanding of how decisions are made and figuring out how we can help improve those decisions. A valuable tool for that job is the after-action review (AAR), where participants can replay their performance in the simulation. Typical AARs are based on notes from a trainer, and if you’re lucky, some static video — here, we can provide a fully immersive playback from any angle, speed, and location. Ours is called the C6 and it’s pretty cool. &amp;#8617;</summary></entry><entry><title type="html">Patient-Facing UI Development</title><link href="http://localhost:4000/work/medical-devices/recent/2015/11/18/patient-facing-ui.html" rel="alternate" type="text/html" title="Patient-Facing UI Development" /><published>2015-11-18T10:22:34-06:00</published><updated>2015-11-18T10:22:34-06:00</updated><id>http://localhost:4000/work/medical-devices/recent/2015/11/18/patient-facing-ui</id><content type="html" xml:base="http://localhost:4000/work/medical-devices/recent/2015/11/18/patient-facing-ui.html">&lt;p&gt;In 2015, I was brought onboard at a large medical device company to help them design their next-generation therapy controller used by patients. The company was replacing their outdated, custom hardware with off-the-shelf touchscreen devices, and needed all the functionality of their existing controller ported to their new touchscreen application.&lt;/p&gt;
+
+&lt;p&gt;The nature of the patient population required specialized design considerations to make up for physical and cognitive limitations. I designed and executed seven studies that took place in the United States and Europe, meeting with more than fifty patients over the course of two years. The studies were casual but rigorous — I wanted to &lt;em&gt;see&lt;/em&gt; the prototypes being used to find any problems, as well as listen to what users needed and what they liked or disliked. Success metrics could range from a simple task completion to something more complex like knowledge of a system state and how to use that information to make a correct decision.&lt;/p&gt;
+
+&lt;p&gt;After each study, my fellow UX teammates and I worked with the systems and software developers to figure out the best solution to our patients’ problems and what the right user interface would look like. I wrote presentations to communicate general trends as well as specific results that were important to our users. These presentations were given to a cross-disciplinary core team. It was important that everyone working on the project understood not only what our users needed, but &lt;em&gt;why&lt;/em&gt; so we could make good, user-focused choices together. This approach meant that when problems arose with proposed designs, the team could collaborate to find new solutions that met all the stakeholder’s needs. This collaborative approach led to a constantly-evolving application that met the user’s needs and worked within our own development constraints.&lt;/p&gt;
+
+&lt;p&gt;UI designs began as wireframes and shifted into high-fidelity prototypes as key features were nailed down. Paper prototypes, click-through PDFs, InVision prototypes, affinity diagrams, and ranked choices were some of the methods I used to understand our users’ mental models of the system and where the problems in our designs were.&lt;/p&gt;
+
+&lt;p&gt;My contract was completed at the end of the formative research studies, and I handed the project off to another UX engineer responsible for assembling documents for submission to the FDA. In mid-2019, the project was approved for use.&lt;/p&gt;</content><author><name></name></author><summary type="html">In 2015, I was brought onboard at a large medical device company to help them design their next-generation therapy controller used by patients. The company was replacing their outdated, custom hardware with off-the-shelf touchscreen devices, and needed all the functionality of their existing controller ported to their new touchscreen application.</summary></entry><entry><title type="html">Build-a-Meal</title><link href="http://localhost:4000/work/old/2014/11/18/build-a-meal.html" rel="alternate" type="text/html" title="Build-a-Meal" /><published>2014-11-18T10:22:34-06:00</published><updated>2014-11-18T10:22:34-06:00</updated><id>http://localhost:4000/work/old/2014/11/18/build-a-meal</id><content type="html" xml:base="http://localhost:4000/work/old/2014/11/18/build-a-meal.html">&lt;p&gt;There was a lot of excitement surrounding Swift — a dynamically-typed language that left behind a lot
+of the cruft and legacy of Objective-C and dramatically reduced things
+like boilerplate code and hacky solutions&lt;sup id=&quot;fnref:fn-caveat&quot;&gt;&lt;a href=&quot;#fn:fn-caveat&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. I always found Objective-C
+confusing, so when I had the opportunity earlier this year to start
+learning Swift, I jumped on it. I began working on an app called
+Build-A-Meal (name still subject to change) which would allow the user
+to figure out what ingredients work well together and which ones don’t.
+I couldn’t find anything like it — the closest were apps that let you
+find recipes based on what’s &lt;a href=&quot;http://myfridgefood.com&quot;&gt;already in&lt;/a&gt; &lt;a href=&quot;http://www.supercook.com/#/recipes/All%2520recipes&quot;&gt;your fridge&lt;/a&gt;. I didn’t
+want recipes, I wanted to know what &lt;em&gt;flavors&lt;/em&gt; fit together to use as a
+starting point for creating &lt;em&gt;new&lt;/em&gt; recipes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This app is still a work in progress. You can see the progress and run
+the app with a limited data set
+&lt;a href=&quot;https://github.com/alilja/flavors&quot;&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I knew generally how I wanted it to work. It should provide a clear at-a-glance indicator of how well
+foods fit together, be easy to pick ingredients and see what goes with
+what you already have&lt;sup id=&quot;fnref:fn-pattern&quot;&gt;&lt;a href=&quot;#fn:fn-pattern&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, and keep track of your previously used
+combinations. My very first thought was a giant flavor wheel that would
+be organized into the five main flavors&lt;sup id=&quot;fnref:fn-flavors&quot;&gt;&lt;a href=&quot;#fn:fn-flavors&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, with foods arranged
+according to how strongly they fit into a given flavor. For example a
+lemon is very sour with some bitter flavors, so it would be closer to
+the bitter side of the sour foods.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/food/sketches1.png&quot; alt=&quot;The first sketches for the app.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are a ton of problems with this design. First of all, to fit all
+the foods necessary, the wheel would have to be &lt;em&gt;enormous.&lt;/em&gt; Foods that
+have several flavor profiles couldn’t be easily categorized. Foods that
+had flavors that were on opposite sides of the wheels wouldn’t be able
+to fit easily on it. There wouldn’t have been enough room to list all
+the matching foods, and that would have created a secondary interface
+for the same data set. After trying out some ideas (and even
+&lt;a href=&quot;/assets/images/food/prototype.png&quot;&gt;prototyping one&lt;/a&gt;) it became clear that this was
+not a good way to go.&lt;/p&gt;
+
+&lt;p&gt;I started thinking about how I would use the application and what sort
+of features I needed access to quickly and easily. I should be able to
+come in with either some sense of what I wanted or with nothing at all
+and rapidly build a set of matching flavors. The UI needed to rapidly
+show me how well things fit together and then making immediate changes
+based on that information. It didn’t matter whether the foods were salty
+or sweet or sour — I wasn’t even going to be thinking of it that way
+when it came to building the ingredients. I would be thinking about
+individual ingredients and then wanting to get a sense of how well
+they’d fit together and what kind of other foods would be good
+additions.&lt;/p&gt;
+
+&lt;p&gt;Doug Engelbart talked about the computer as &lt;a href=&quot;http://www.dougengelbart.org/firsts/interactive-computing.html&quot;&gt;a vast information space&lt;/a&gt;,
+with the computer providing people knowledge in useful ways to help them
+accomplish their job. I tried to shape the app in that same sense: it
+knows how well things fit together, it’s just up to you to give tell it
+what items you want to check. And since it knows how things fit
+together, it should provide you with information about &lt;em&gt;other&lt;/em&gt; things
+fit well. I don’t want to have to think about fit, I want to spend my
+time thinking about designing new recipes and what I can put in them to
+make them even better. The computer should be the other side of a
+conversation about food, someone who never gets bored when I ask how
+different ingredients fit together, and politely tells me what other
+things I should try that might be interesting.&lt;/p&gt;
+
+&lt;p&gt;What it should &lt;em&gt;never&lt;/em&gt; do is make me actively consider things that aren’t
+food-related, like navigating the interface or finding a specific item
+buried in a list. With this in mind I consciously stayed away from &lt;a href=&quot;https://www.visualthesaurus.com&quot;&gt;a network model&lt;/a&gt;.&lt;img src=&quot;/assets/images/food/autocomplete.png&quot; alt=&quot;&quot; /&gt;
+This was pretty tempting: a network of relationships between food items
+seems like a home run. But I didn’t like the idea of all that panning on
+a small phone to find what I was looking for&lt;sup id=&quot;fnref:fn-discoverability&quot;&gt;&lt;a href=&quot;#fn:fn-discoverability&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;, nor the distinction
+between the &lt;em&gt;search set&lt;/em&gt; and the &lt;em&gt;collected set&lt;/em&gt;. I don’t care about
+potential connections between all the items out there, I’m only
+interested in the relationship between the items I have now. The search
+set should be a big nebulous cloud that contains the foods I’m curious
+about, but only that — who cares if bearnaise sauce goes well with
+crepes if I’m curious about what to use to replace fish sauce with in my
+banh mi.&lt;/p&gt;
+
+&lt;p&gt;This got me thinking about &lt;a href=&quot;http://www.subtraction.com/2014/08/26/what-is-a-card/&quot;&gt;card-based applications&lt;/a&gt;,
+where every food would be represented as a card. It would show
+information about flavor profiles and what foods matched that, on each
+card. You could add cards to a bin, and tapping a matching food in a
+card would put that flavor in the bin. Of course, some foods are blank
+slates and match many other flavors, so you’d need some sort of search
+feature to look for them. But wait — if you’re going to have a per-card
+search feature, why not just make it a global search that looks for
+foods in both the cards and the flavors &lt;em&gt;on&lt;/em&gt; each card? I thought about
+how to deal with the same flavor appearing on more than one card in
+search results, and realized the solution was to get rid of cards
+entirely and have the interface essentially function as a front-end to a
+database. You enter the food you’re looking for, and it tells you how
+well it matches the other foods you have.&lt;/p&gt;
+
+&lt;p&gt;I was lucky enough to have a fairly robust dataset from &lt;a href=&quot;http://www.amazon.com/Culinary-Artistry-Andrew-Dornenburg/dp/0471287857&quot;&gt;Culinary Artistry&lt;/a&gt;,
+which provided a long list of foods and their associated matching
+flavors&lt;sup id=&quot;fnref:fn-aww&quot;&gt;&lt;a href=&quot;#fn:fn-aww&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. When discussing my app with a friend, I mentioned this
+one-to-many relationship, and he said that “it sounds like the flavors
+and foods are begging to talk to each other.” I took his advice and
+eliminated the distinction between &lt;em&gt;foods&lt;/em&gt; and their associated
+&lt;em&gt;flavors.&lt;/em&gt; Now, everything was connected both ways. Beef goes well with
+red wine, and red wine goes well with beef.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/food/sketches2.png&quot; alt=&quot;Once I ditched the wheel, I shifted over
+to a three-part UI.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I began sketching and wireframing. The app would have three parts: the
+top bar would contain the search field, just below that would be the
+foods you were currently matching, and the bottom would would contain
+flavors you hadn’t added but that might fit well within your current
+flavor profile. You could enter some foods and see how well they fit
+together visually and then immediately see what else you could add. The
+potential flavor set would be populated by taking all the flavors
+associated with the foods being matched and ranking them by how many
+foods they shared in common. If four foods were being matched and they
+each went well with cream, that would appear higher than a flavor that
+only went with two of the matched foods.&lt;/p&gt;
+
+&lt;p&gt;Showing how well flavors fit together was tricky. I developed an
+algorthim that matched foods based on how well they fit together, and
+then displayed how well they fit using a traffic light
+metaphor. &lt;img src=&quot;/assets/images/food/lights.png&quot; alt=&quot;&quot; /&gt; A green display means that flavor
+fits well within the group, while a red color indicates a bad match.
+Most people have a clear sense of “green means good and red means bad,”
+so I thought this color system would make it easy to understand what was
+going on without having to resort to numbers or icons. At a glance, you
+can see how well everything fits together and immediately identify where
+your problem areas are.&lt;/p&gt;
+
+&lt;p&gt;In order to get an app to feel right, there’s a lot of details that have
+to be handled. Autocomplete was a must for the search bar. You need to
+know what’s available to you, and showing a list of potential foods
+combats the anxiety of just being face with a blank screen. I had wanted
+to show how well each food would fit in to your existing set before even
+adding it, but unfortunately, this slowed the app down too much. It’s
+much faster (and less distracting) to just add a food and see how it
+fits than to wait a few seconds to see how &lt;em&gt;everything&lt;/em&gt; fits, when all
+but one of those items aren’t what you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/food/matches.png&quot; alt=&quot;Don't put foie gras in your tomato sauce
+recipe.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This application is still a work in progress. A huge part of its success
+or failure will hinge on the data in the backend, and right now, I only
+have around 40% of it implemented in machine-readable format. I also
+need to run user testing — both on myself, and on people who would find
+this useful. I have a wish list of features I hope to implement, like an
+auto-match feature that will automatically build a flavor profile from
+scratch or add new matching flavors based on what you already have. If
+this sounds interesting and you’d like to play around with it, you can
+download a copy &lt;a href=&quot;https://github.com/alilja/flavors&quot;&gt;from GitHub&lt;/a&gt;.
+Download all the sketches &lt;a href=&quot;assets/media/food/sketches.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn-caveat&quot;&gt;
+      &lt;p&gt;In practice, this was only partly true. Swift is still tied to the Cocoa API; while it’s now much easier to work with it, the quirks and oddities of that system still exist. &lt;a href=&quot;#fnref:fn-caveat&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-pattern&quot;&gt;
+      &lt;p&gt;The usage pattern here is that you may already have the basis of a recipe, but you want to add or alter part of it. &lt;a href=&quot;#fnref:fn-pattern&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-flavors&quot;&gt;
+      &lt;p&gt;Sweet, sour, salty, bitter, and umami. &lt;a href=&quot;#fnref:fn-flavors&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-discoverability&quot;&gt;
+      &lt;p&gt;Discoverability is also reduced, because you’ll only ever be looking at things in your general neighborhood. If creativity is finding connections between seemingly disparate things, you want to have totally-out-of-left-field things show up to spark your imagination. &lt;a href=&quot;#fnref:fn-discoverability&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-aww&quot;&gt;
+      &lt;p&gt;Sadly, this means that I cannot release the app for the public because I do not own the data within it. &lt;a href=&quot;#fnref:fn-aww&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">There was a lot of excitement surrounding Swift — a dynamically-typed language that left behind a lot of the cruft and legacy of Objective-C and dramatically reduced things like boilerplate code and hacky solutions1. I always found Objective-C confusing, so when I had the opportunity earlier this year to start learning Swift, I jumped on it. I began working on an app called Build-A-Meal (name still subject to change) which would allow the user to figure out what ingredients work well together and which ones don’t. I couldn’t find anything like it — the closest were apps that let you find recipes based on what’s already in your fridge. I didn’t want recipes, I wanted to know what flavors fit together to use as a starting point for creating new recipes. In practice, this was only partly true. Swift is still tied to the Cocoa API; while it’s now much easier to work with it, the quirks and oddities of that system still exist. &amp;#8617;</summary></entry><entry><title type="html">VirtuTrace Physics Engine Rebuild</title><link href="http://localhost:4000/work/old/2014/01/01/virtutrace-physics.html" rel="alternate" type="text/html" title="VirtuTrace Physics Engine Rebuild" /><published>2014-01-01T10:22:34-06:00</published><updated>2014-01-01T10:22:34-06:00</updated><id>http://localhost:4000/work/old/2014/01/01/virtutrace-physics</id><content type="html" xml:base="http://localhost:4000/work/old/2014/01/01/virtutrace-physics.html">&lt;p&gt;In our lab, we try to get insights about high-intensity, time-pressured
+decisions made by people like soldiers, firefighters, and police
+officers. To do this, we use VirtuTrace, our flagship simulator software
+that runs in the &lt;a href=&quot;http://www.vrac.iastate.edu/facilities/c6/&quot;&gt;C6&lt;/a&gt;, one
+of the largest
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Cave_automatic_virtual_environment&quot;&gt;CAVE&lt;/a&gt;s
+in the world. We like the C6 because it allows us to get really high
+ecological validity for our studies, but until recently, our simulations
+did not support dynamic physics — once the scene was loaded, none of the
+objects could move.&lt;/p&gt;
+
+&lt;p&gt;It was my job to update the engine to allow for fully dynamic physics:
+tools floating in zero-g in the International Space Station, houses
+exploding in war zones, and even car collisions were all required in
+upcoming projects. We were using the &lt;a href=&quot;http://bulletphysics.org/&quot;&gt;Bullet&lt;/a&gt;
+physics engine just to stop people from walking through walls, but it
+was designed for truly dynamic physics simulations, so I didn’t have to
+replace it. Even better, a &lt;a href=&quot;https://github.com/mccdo/osgbullet&quot;&gt;library&lt;/a&gt;
+exists that ties together our visual rendering and object hierarchy tree
+(&lt;a href=&quot;http://www.openscenegraph.org&quot;&gt;OpenSceneGraph&lt;/a&gt;) and Bullet, saving me
+even more time.&lt;/p&gt;
+
+&lt;p&gt;I think of code refactoring as a sort of design problem. The users are the developers
+who have to read, understand, and use your API&lt;sup id=&quot;fnref:fn-api&quot;&gt;&lt;a href=&quot;#fn:fn-api&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; to get their job done
+and the developers who have to edit your code to add a new feature or
+fix a bug. The API user’s goal could be anything your system allows (and
+in some cases, &lt;em&gt;doesn’t&lt;/em&gt; allow), so a good one needs to have clear and
+explicit patterns while still remaining flexible. In contrast, the bug
+fixer just wants to get in and solve their problem without spending a
+ton of time digging around in complex, arcane code looking for a minus
+sign in the wrong spot. I also had to make migration from the old,
+static scenes to the new dynamic physics scenes as painless as possible,
+which meant that no matter how fancy I wanted to get, the inputs and
+outputs all had to look the same (or very similar). There’s nothing
+worse than updating a library and finding out that nothing works the way
+you expect it to, so now you have go back and rewrite all your old code.&lt;/p&gt;
+
+&lt;p&gt;I discussed this at length with my primary stakeholders: Kevin, the
+initial developer of VirtuTrace and its main developer once I leave, and
+Nir, our advisor, who needs to understand its features and limitations
+when designing experiments. It was very important to Nir that the
+physics were realistic, but Kevin wasn’t able to spend a ton of his time
+rewriting old scenes to make them play nice with the new code. Nir had a
+long list of features he wanted to see, including zero-g, variations in
+mass, size, and even mass distribution (so a hammer could be heavier at
+one end, for example). Even though Nir wanted a bunch of features,
+Kevin’s need for an easy upgrade meant that I couldn’t just tear
+everything out and start from scratch.&lt;/p&gt;
+
+&lt;p&gt;As I read through the code and experimented with changes, however, I quickly
+discovered that it would be very challenging to create all these
+features without breaking compatibility with old code. This led to two
+key decisions: first, there should be a clear distinction between
+&lt;em&gt;static&lt;/em&gt; objects and &lt;em&gt;dynamic&lt;/em&gt; objects, and that everything should be
+static unless someone &lt;em&gt;explicitly&lt;/em&gt; told them not to be. This way, old
+scenes would be able to play nice with the new system, and if anyone
+ever wanted to upgrade them to a dynamic scene, they would be going out
+of their way to make that choice, as opposed to having it forced upon
+them by the design of the system&lt;sup id=&quot;fnref:fn-staticdynamic&quot;&gt;&lt;a href=&quot;#fn:fn-staticdynamic&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;The very first thing I did was find out what wasn’t necessary.
+The original, static method looked at all the objects in the scene,
+created invisible boxes around each of them, and then froze them in
+place. This worked fine when things weren’t moving, but it wasn’t going
+to fly with dynamic physics. For one thing, keeping track and
+synchronizing the locations of pairs of objects would be a huge hit to
+performance. The old method was going to have to go. While this meant
+starting over in several areas, it had a nice upside and an unexpected
+downside. Bullet provides an API for adding dynamic objects
+(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btRigidBodies*&lt;/code&gt; in the Bullet parlance), which allowed me to specify
+things like mass, size, and starting position. The downside was that all
+the previous code that had done the math to put objects in the right
+spot had to be removed, and because of a mismatch between how positions
+were entered by the programmer and how Bullet expected them, that math
+now fell to &lt;em&gt;me&lt;/em&gt;&lt;sup id=&quot;fnref:fn-linear&quot;&gt;&lt;a href=&quot;#fn:fn-linear&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of what it looks like:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;osg::MatrixTransform* master_node = new osg::MatrixTransform();
+master_node-&amp;gt;setName(model_id);
+
+osg::Matrix matrix = osg::Matrix::scale(scale_x, scale_y, scale_z)
+* osg::Matrix::rotate(osg::inDegrees(rotate_x), osg::X_AXIS)
+* osg::Matrix::rotate(osg::inDegrees(rotate_y), osg::Y_AXIS)
+* osg::Matrix::rotate(osg::inDegrees(rotate_z), osg::Z_AXIS)
+* osg::Matrix::translate(position);
+osg::MatrixTransform* static_matrix_transform = new osg::MatrixTransform(matrix);
+std::vector&amp;lt;osg::Node* &amp;gt; non_collision_nodes = physics_visitor-&amp;gt;get_non_collision_nodes();
+for(std::vector&amp;lt;osg::Node* &amp;gt;::iterator iter = non_collision_nodes.begin(); iter != non_collision_nodes.end(); ++iter){
+    static_matrix_transform-&amp;gt;addChild((*iter));
+}
+master_node-&amp;gt;addChild(static_matrix_transform);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Instead of handling the initial construction and setup of dynamic and static objects
+separately, I decided to treat their creation as if they were identical
+until they &lt;em&gt;really&lt;/em&gt; needed to be handled differently. This allowed me to
+use the many of the same functions and math for both kinds of objects,
+greatly simplifying the process and speeding up the simulation. Because
+the math was the same, the various steps of the APIs could both point to
+the same function when they needed, but still do their own independent
+steps. This saved me a lot of time, and made it substantially easier for
+future programmers to look at my code and see how all the pieces fit
+together. With the new positioning code written, I could remove the old,
+redundant code that already existed. However, doing this would remove
+the API hooks the static scenes relied on, so I created new hooks that
+were identical in name to the old ones, but just pointed to the new
+code&lt;sup id=&quot;fnref:fn-best&quot;&gt;&lt;a href=&quot;#fn:fn-best&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;With the new code in place, I had assumed everything would work. And in
+tests, it did! Objects flying at each other would bounce off the floors
+and walls, and objects would drop out of the sky with gravity pulling
+them down — and the old scenes still worked just fine. The only problem
+was that the player object couldn’t interact with the dynamic objects.
+It didn’t matter what the mass or size of the object was: as soon as the
+player walked into it, they stopped dead. This was initially amusing, as
+players floating down the International Space Station would come to a
+crashing halt when they run into a screwdriver floating in the air. But
+this wasn’t exactly a high-fidelity simulation.&lt;/p&gt;
+
+&lt;p&gt;The solution was not easy to find. I tried a huge range of fixes, from
+changing the way the physics engine treated the player object to writing
+my own collision math specifically for dealing with the player. I talked
+to Kevin and Nir looking for insights and advice, and I contacted the
+much more experienced Ph.D students who worked in VRAC. No one could
+help me. I turned to the archaic, spotty, and inconsistent Bullet
+documentation over and over again, reading every page, forum post,
+commit message, and code comment that seemed promising.&lt;/p&gt;
+
+&lt;p&gt;In the end, it was this exhaustive coverage of the documentation that
+led me to my answer. Nestled in an unrelated page of the Bullet wiki was
+a brief mention that player objects could have collision filters applied
+to them using an old-style method from the previous version of Bullet.
+Nowhere else in the official documentation was this listed, and the
+function didn’t even document that it could accept that kind of input.
+But lo and behold, it worked.&lt;/p&gt;
+
+&lt;p&gt;The conversion was even more challenging than I expected. The end result
+fit what both Kevin and Nir wanted, making the upgrade process painless
+and providing most of the features Nir asked for with the potential to
+add the rest in the near future. I tried to make my code as clear as
+possible, leaving documenting comments in areas that seemed confusing
+and breadcrumb trails showing how all the parts connected. And if
+developers were still confused, I made sure that my email address was
+available for them.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn-api&quot;&gt;
+      &lt;p&gt;Application Programming Interface; the hooks and tie-ins to your system that let developers use it for their own purposes. &lt;a href=&quot;#fnref:fn-api&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-staticdynamic&quot;&gt;
+      &lt;p&gt;One unexpected benefit of these choices was that it was easy to mix static and dynamic objects together. If you wanted to add just one dynamic thing to an old static scene, you didn’t need to rewrite all the code — just use the new dynamic API along with the old static one. &lt;a href=&quot;#fnref:fn-staticdynamic&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-linear&quot;&gt;
+      &lt;p&gt;I wound up learning almost an entire class’ worth of linear algebra for this. I let the computer handle the &lt;a href=&quot;http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation&quot;&gt;four-dimensional rotation matrices&lt;/a&gt;, though. &lt;a href=&quot;#fnref:fn-linear&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-best&quot;&gt;
+      &lt;p&gt;In the end, this was the best decision I made. It meant that the physics system could live in one spot and share as much code as possible while still allowing for old code to talk to it. The inputs and outputs stayed the same, it was just the inside that changed. &lt;a href=&quot;#fnref:fn-best&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">In our lab, we try to get insights about high-intensity, time-pressured decisions made by people like soldiers, firefighters, and police officers. To do this, we use VirtuTrace, our flagship simulator software that runs in the C6, one of the largest CAVEs in the world. We like the C6 because it allows us to get really high ecological validity for our studies, but until recently, our simulations did not support dynamic physics — once the scene was loaded, none of the objects could move.</summary></entry><entry><title type="html">Tiny Projects</title><link href="http://localhost:4000/work/old/2013/11/18/tiny-projects.html" rel="alternate" type="text/html" title="Tiny Projects" /><published>2013-11-18T10:22:34-06:00</published><updated>2013-11-18T10:22:34-06:00</updated><id>http://localhost:4000/work/old/2013/11/18/tiny-projects</id><content type="html" xml:base="http://localhost:4000/work/old/2013/11/18/tiny-projects.html">&lt;h2 id=&quot;ratebeer-api&quot;&gt;RateBeer API&lt;/h2&gt;
+
+&lt;p&gt;I started working on a beer recommendation engine&lt;sup id=&quot;fnref:fn-kmeans&quot;&gt;&lt;a href=&quot;#fn:fn-kmeans&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but quickly realized that I needed to build a robust API for
+extracting data from beer websites, and that such a tool didn’t exist
+yet. I settled on using the &lt;a href=&quot;http://www.ratebeer.com&quot;&gt;RateBeer&lt;/a&gt; database
+because of its community ethics and open attitude toward using their
+data. As my needs grew, I eventually turned my attention towards an
+exhaustive API for the website in Python. The project is now downloaded
+&lt;a href=&quot;https://pypi.python.org/pypi/ratebeer&quot;&gt;several hundred times every
+week&lt;/a&gt; and has two full-time
+developers, along with several community contributions.&lt;/p&gt;
+
+&lt;p&gt;You can check it out &lt;a href=&quot;https://github.com/alilja/ratebeer&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-their-face&quot;&gt;What’s Their Face?&lt;/h2&gt;
+
+&lt;p&gt;A goofy idea turned into a weekend hack. My friends and I were arguing
+about what actors had appeared in certain movies — we could remember the
+movies but not the actor’s name. I put together &lt;a href=&quot;http://whatstheirface.herokuapp.com&quot;&gt;What’s Their
+Face?&lt;/a&gt; to solve this problem —
+enter two movies and it’ll tell you the actors that are common to both.
+The project was an opportunity for me to learn how to do web programming
+with Python. I chose to use &lt;a href=&quot;http://flask.pocoo.org&quot;&gt;Flask&lt;/a&gt; for its
+simplicity; because it’s such a simple application, Flask allowed me to
+easily collapse the view and controller logic into a &lt;a href=&quot;https://github.com/alilja/WhatsTheirFace/blob/master/application.py&quot;&gt;single
+file&lt;/a&gt;
+and keep everything under 200 lines of code.&lt;/p&gt;
+
+&lt;p&gt;My goal was to make looking up movies as fast and
+easy as possible. Instead of trying to label boxes with names like
+“movie one,” I opted for a sentence-based structure, which made it quick
+and easy to figure out what the app was doing and where movie names
+should go. I figured people would likely be using it in their homes&lt;sup id=&quot;fnref:fn-theatre&quot;&gt;&lt;a href=&quot;#fn:fn-theatre&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;,
+and therefore would be watching a rented movie. With this in mind, the
+app automatically fills in that day’s most-rented DVD in the first spot.
+Entering a new movie will auto-fill it into the first box, and will keep
+it there until the movie is over. Finally, because this is based on the
+sense of “I know their face but not their name,” it was essential that
+the results show the faces of the actors for quick recognition.&lt;/p&gt;
+
+&lt;p&gt;You can play with What’s Their Face
+&lt;a href=&quot;http://whatstheirface.herokuapp.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;opaline-and-libbiopacndt_py&quot;&gt;Opaline and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libbiopacndt_py&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libbiopacndt_py&lt;/code&gt;, despite having an &lt;em&gt;extremely&lt;/em&gt; catchy name, is
+a fairly technical piece of software. It’s a Python API that allows for
+real-time processing of physiological data provided by the
+&lt;a href=&quot;http://www.biopac.com&quot;&gt;BioPac&lt;/a&gt; system. It can be used for any
+application, but right now it’s tied into Opaline, a tool designed to
+process both real-time and post-hoc physiological data to determine how
+stressed out someone is&lt;sup id=&quot;fnref:fn-brs&quot;&gt;&lt;a href=&quot;#fn:fn-brs&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; for usage in adaptive computing. This
+research has showed some promise already, and was presented at &lt;a href=&quot;http://www.chirpe.com/EventSessions.aspx?DISPLAYMODE=2&amp;amp;SessionID=2674&amp;amp;EventID=2759&quot;&gt;I/ITSEC 2014&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find both &lt;a href=&quot;https://github.com/alilja/opaline&quot;&gt;Opaline&lt;/a&gt; and
+&lt;a href=&quot;https://github.com/alilja/libbiopacndt_py&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libbiopacndt_py&lt;/code&gt;&lt;/a&gt; on
+GitHub.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn-kmeans&quot;&gt;
+      &lt;p&gt;Instead of using the usual method of basing recommendations on users who have similar tastes as you, like Netflix or Amazon, this system would parse user reviews to develop keyword-based flavor profiles for beers, and then use that information in a k-means clustering algorithm to make recommendations. &lt;a href=&quot;#fnref:fn-kmeans&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-theatre&quot;&gt;
+      &lt;p&gt;And so hopefully &lt;em&gt;not&lt;/em&gt; distracting people with their bright little screens in a theatre! &lt;a href=&quot;#fnref:fn-theatre&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn-brs&quot;&gt;
+      &lt;p&gt;We calculate a measure called the baroreflex sensitivity, the ratio of the elasticity of the arteries to heart rate that has showed quite a bit of promise as a low-latency, accurate method of quantifying stress. &lt;a href=&quot;#fnref:fn-brs&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">RateBeer API</summary></entry></feed>

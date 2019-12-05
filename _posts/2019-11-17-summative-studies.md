@@ -2,7 +2,7 @@
 layout: post
 title:	Summative Studies
 date:   2019-11-17 10:22:34 -0600
-categories: work medical-devices
+categories: work medical-devices recent
 ---
 
 A large medical device manufacturer needed to replace an aging fleet of clinician-operated tools used to program lifesaving implantable devices. The existing tool was no longer being manufactured, and the company wanted to move away from custom-made hardware towards more flexible, off-the-shelf devices like the iPad. The new programmer needed to do everything the old one had, and be future-proofed to work with new devices in the future with an unknown range of features and improvements.
