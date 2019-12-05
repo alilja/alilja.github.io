@@ -5,4 +5,6 @@ date:   2019-11-16 10:22:34 -0600
 categories: work medical-devices
 ---
 
-If you can't explain it to a five-year-old, you don't really understand something. The acid test of this is technical writing, where one must clearly and effectively communicate how a system works to an audience with an [incredible range of proficiency and knowledge](https://www.nngroup.com/articles/computer-skill-levels/). I was brought in to write the system usage and implant instructions for a startup's new medical device. This involved explaining how the system worked for both clinicians and patients, and how to safely implant and maintain it.
+A therapy is useless if the patient can't use it — and despite this, many medical manuals are complex and hard to understand. User populations have a [wide range of proficiency and knowledge](https://www.nngroup.com/articles/computer-skill-levels/)] with computers, so documentation must be clear and concise with little room for misinterpretation — what counts as a small change for one patient may be catastrophic for another. 
+
+In 2017, I was brought into an existing rewrite of two medical device manuals, one for the clinician's usage that described implantation and initial setup, and one for the user that described how the system worked and how to use it safely and effectively.
