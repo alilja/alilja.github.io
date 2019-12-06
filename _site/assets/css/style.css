@@ -29,6 +29,8 @@ p:last-child { margin-bottom: 0; }
 
 i, em { font-style: italic; }
 
+b, strong { font-weight: 700; }
+
 h1 { font-weight: 700; font-size: 12pt; color: #D069A9; }
 
 h2 { color: #939598; font-weight: 200; font-size: 12pt; }
@@ -55,9 +57,10 @@ ul#recent_work li:last-child { margin-top: 12pt; }
 
 article { text-align: justify; text-align-last: left; letter-spacing: -0.1pt; }
 article .footnotes { color: #D069A9; font-size: 9pt; line-height: 10.8pt; margin-top: 16pt; }
+article .footnotes a:link, article .footnotes a:hover, article .footnotes a:active, article .footnotes a:visited { text-decoration: underline; }
 article li { margin-bottom: 16pt; }
 article li:last-child { margin-bottom: 0; }
-article sup a:link, article sup a:hover, article sup a:active, article sup a:visited { color: #F7F7F7; background-color: #D069A9; text-decoration: none; text-shadow: initial; box-shadow: initial; font-size: 0.7em; text-align: center; display: inline-block; border-radius: 50%; margin: 0 0.2em; line-height: 1.6em; text-indent: 0; width: 1.428571429em; height: 1.428571429em; margin-left: 0.4em; }
+article sup a:link, article sup a:hover, article sup a:active, article sup a:visited { color: #F7F7F7; background-color: #D069A9; text-decoration: none; text-shadow: initial; box-shadow: initial; font-size: 0.7em; text-align: center; display: inline-block; border-radius: 50%; margin: 0 0.2em; line-height: 1.6em; text-indent: 0; width: 1.428571429em; height: 1.428571429em; }
 article sup a:hover { background-color: #939598; }
 
 h1#older_work { display: block; text-align: center; margin: 16pt auto; }

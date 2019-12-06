@@ -17,6 +17,6 @@ Each task required a unique, carefully-described success criteria. In order to w
 
 After each study had concluded, the data needed to be analyzed and summarized into two forms: one in an official document submitted to the FDA, and one for internal usage about any usability or safety issues that needed to be fixed. In order to meet development timelines, I needed to analyze and summarize data from 30 to 45 participants in order to develop design recommendations. Sometimes, the turnaround on this process was as short as a week.
 
-In early 2019, the new tool was approved for usage by the FDA. That same year, I worked on formative studies preparing for the next round of validation testing to take place in 2020.
+The results of our studies were submitted to the FDA in phases, ensuring that if there were any rejections, the entire product would not have to be re-tested. All parts of the submissions I worked on were approved without issues or requests from the FDA. In early 2019, the new tool was competely approved for usage, sixth months ahead of schedule. That same year, I worked on formative studies preparing for the next round of validation testing to take place in 2020.
 
 [^field_use]: As we would learn, there could be a large gap between how a feature was used in the field and how it was _supposed_ to be used.

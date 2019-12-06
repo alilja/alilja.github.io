@@ -32,7 +32,7 @@ layout: default
         <header class="post_meta">
             <h2>{{ post.date | date: '%Y' }}</h2>
             <a class="post_name" name="{{ post.slug | escape }}">
-                <h1>{{ post.title | escape }}</h1>
+                <h1>{%- for category in post.categories -%}{%- if category == "medical-devices" -%}Case Study:&nbsp;{%- break -%}{%- endif -%}{%- endfor -%}{{ post.title | escape }}</h1>
             </a>
         </header>
         <article>
