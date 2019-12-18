@@ -5,6 +5,8 @@ date:   2019-12-5 10:22:34 -0600
 categories: work recent
 ---
 
+*Unfortunately, all of my recent work is currently under NDA. I can provide specific details on request.*
+
 Since 2015, I've been working in medical devices. This highly regulated industry involves a broad range of skills and activities for UX professionals from user interviews and research to all steps of the design process to communication with internal and external groups. Because medical devices are a highly regulated industry, every step in the process is documented — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.
 
 Modern medical devices are incredibly powerful and complex — a pacemaker can tell the difference between a dangerous heart rate and the normal change in rate associated with exercise and respond accordingly, for example — and as a result no single person or team can be wholly responsible for developing one. Collaboration between groups within an organization is essential, and sometimes this means that groups with clear business cases — like software development — can get more recognition than the UX teams. Advocating for design and demonstrating its importance early in the development process is a critical responsibility for a human factors practitioner.
