@@ -1,0 +1,1045 @@
+/*	Installation = /home1/maps/web/data/styles */
+
+body {
+	font-family: 'Arial', sans serif;
+	font-weight: 400;
+	margin: 0px;
+	font-size: 1rem;
+	-webkit-user-select: none; 
+	-webkit-touch-callout: none; 
+	overflow-wrap: break-word;
+	white-space: normal;
+}
+#shell {
+	display: block;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	-webkit-overflow-scrolling:touch;
+}
+
+#shell > * {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+/* Set #shell height to be 20px less than the detected window height */
+@media only screen and (max-height: 74px) {#shell {height: 20px;}}
+@media only screen and (min-height: 75px) {#shell {height: 20px;}}
+@media only screen and (min-height: 95px) {#shell {height: 40px;}}
+@media only screen and (min-height: 115px) {#shell {height: 60px;}}
+@media only screen and (min-height: 135px) {#shell {height: 80px;}}
+@media only screen and (min-height: 155px) {#shell {height: 100px;}}
+@media only screen and (min-height: 175px) {#shell {height: 120px;}}
+@media only screen and (min-height: 195px) {#shell {height: 140px;}}
+@media only screen and (min-height: 215px) {#shell {height: 160px;}}
+@media only screen and (min-height: 235px) {#shell {height: 180px;}}
+@media only screen and (min-height: 255px) {#shell {height: 200px;}}
+@media only screen and (min-height: 275px) {#shell {height: 220px;}}
+@media only screen and (min-height: 295px) {#shell {height: 240px;}}
+@media only screen and (min-height: 315px) {#shell {height: 260px;}}
+@media only screen and (min-height: 335px) {#shell {height: 280px;}}
+@media only screen and (min-height: 355px) {#shell {height: 300px;}}
+@media only screen and (min-height: 375px) {#shell {height: 320px;}}
+@media only screen and (min-height: 395px) {#shell {height: 340px;}}
+@media only screen and (min-height: 415px) {#shell {height: 360px;}}
+@media only screen and (min-height: 435px) {#shell {height: 380px;}}
+@media only screen and (min-height: 455px) {#shell {height: 400px;}}
+@media only screen and (min-height: 475px) {#shell {height: 420px;}}
+@media only screen and (min-height: 495px) {#shell {height: 440px;}}
+@media only screen and (min-height: 515px) {#shell {height: 460px;}}
+@media only screen and (min-height: 535px) {#shell {height: 480px;}}
+@media only screen and (min-height: 555px) {#shell {height: 500px;}}
+@media only screen and (min-height: 575px) {#shell {height: 520px;}}
+@media only screen and (min-height: 595px) {#shell {height: 540px;}}
+@media only screen and (min-height: 615px) {#shell {height: 560px;}}
+@media only screen and (min-height: 635px) {#shell {height: 580px;}}
+@media only screen and (min-height: 655px) {#shell {height: 600px;}}
+@media only screen and (min-height: 675px) {#shell {height: 620px;}}
+@media only screen and (min-height: 695px) {#shell {height: 640px;}}
+@media only screen and (min-height: 715px) {#shell {height: 660px;}}
+@media only screen and (min-height: 735px) {#shell {height: 680px;}}
+@media only screen and (min-height: 755px) {#shell {height: 700px;}}
+@media only screen and (min-height: 775px) {#shell {height: 720px;}}
+@media only screen and (min-height: 795px) {#shell {height: 740px;}}
+@media only screen and (min-height: 815px) {#shell {height: 760px;}}
+@media only screen and (min-height: 835px) {#shell {height: 780px;}}
+@media only screen and (min-height: 855px) {#shell {height: 800px;}}
+@media only screen and (min-height: 875px) {#shell {height: 820px;}}
+@media only screen and (min-height: 895px) {#shell {height: 840px;}}
+@media only screen and (min-height: 915px) {#shell {height: 860px;}}
+@media only screen and (min-height: 935px) {#shell {height: 880px;}}
+@media only screen and (min-height: 955px) {#shell {height: 900px;}}
+@media only screen and (min-height: 975px) {#shell {height: 920px;}}
+@media only screen and (min-height: 995px) {#shell {height: 940px;}}
+@media only screen and (min-height: 1015px) {#shell {height: 960px;}}
+@media only screen and (min-height: 1035px) {#shell {height: 980px;}}
+@media only screen and (min-height: 1055px) {#shell {height: 1000px;}}
+@media only screen and (min-height: 1075px) {#shell {height: 1020px;}}
+@media only screen and (min-height: 1095px) {#shell {height: 1040px;}}
+@media only screen and (min-height: 1115px) {#shell {height: 1060px;}}
+@media only screen and (min-height: 1135px) {#shell {height: 1080px;}}
+@media only screen and (min-height: 1155px) {#shell {height: 1100px;}}
+@media only screen and (min-height: 1175px) {#shell {height: 1120px;}}
+@media only screen and (min-height: 1195px) {#shell {height: 1140px;}}
+@media only screen and (min-height: 1215px) {#shell {height: 1160px;}}
+@media only screen and (min-height: 1235px) {#shell {height: 1180px;}}
+@media only screen and (min-height: 1255px) {#shell {height: 1200px;}}
+@media only screen and (min-height: 1275px) {#shell {height: 1220px;}}
+@media only screen and (min-height: 1295px) {#shell {height: 1240px;}}
+@media only screen and (min-height: 1315px) {#shell {height: 1260px;}}
+@media only screen and (min-height: 1335px) {#shell {height: 1280px;}}
+
+#shell > nav {
+		margin: 0px;
+}
+#shell > .related-links {
+		margin-left: 1rem;
+		margin-right: 1rem;
+}
+.map ul {
+	list-style-type: none;
+	font-family: 'Effra', 'Arial', sans serif
+}
+ul.map {
+	background: #004b87;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	list-style: none;
+}
+
+ul.map a {
+	text-decoration: none;
+	display: block;
+}
+
+
+/* First Level */
+ul.map li {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.3rem;
+	color: white;
+}
+ul.map li>a {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	margin: 0px;
+	padding-left: 3.5rem;
+	padding-right: 1rem;
+}
+[dir="rtl"] ul.map li>a {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	margin-top: 0px;
+	margin: 0px;
+	padding-left: 1rem;
+	padding-right: 3.5rem;
+}
+ul.map li a {
+	display: block;
+	font-size: 1.3rem;
+	color: white;
+}
+
+/* First level alerts */
+
+ul.map  li.alert,
+ul.map  li.alert > a {
+	color:#FFCE00;
+	font-size: 1.35rem;
+	display: block;
+}
+
+/* Second Level */
+
+ul.map ul {
+	border-bottom: none;
+	background: #1A85C8;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+ul.map ul li  {
+	font-size: 1.25rem;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
+
+ul.map ul li>a {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding-left: 4.2rem;
+	padding-right: 0rem;
+}
+
+[dir="rtl"] ul.map ul li>a {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding-left: 0rem;
+	padding-right: 4.2rem;
+}
+ul.map ul li a {
+	font-size: 1.25rem;
+	color: white;
+}
+
+ul.map ul li+li {
+	border-top: 1px solid white;
+}
+
+
+/* Third Level */
+ul.map  ul ul {
+	border-top: 1px solid white;
+	background: #b9d9eb;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ul.map ul ul li {
+	border-top: none;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.map ul ul li>a {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding-left: 4.9rem;
+	padding-right: 0rem;
+}
+
+[dir="rtl"] ul.map ul ul li>a {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding-left: 0rem;
+	padding-right: 4.9rem;
+}
+ul.map ul ul ul {
+	background: #b9d9eb;
+}
+
+ul.map ul ul li a {
+	color: black;
+	display: block;
+	line-height: normal;
+	text-decoration:none;
+}
+
+ul.map a:focus {
+	box-shadow: 0 0 10px 4px #FFFFFF !important;
+	outline-color: #FFFFFF;
+}
+
+/* Accordion Button */
+ul.map li.has-subnav span {
+	text-indent: 0px;
+}
+
+ul.map li.has-subnav .accordion-btn{
+	margin:0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.4rem;	
+	padding-top: 0.5rem;
+}
+
+/* Accordion Button for subnav */
+ul.map ul li.has-subnav .accordion-btn {
+	visibility: hidden;
+	font-size: 1.5rem;
+}
+
+/* Language Links ("Choose a language") styling */
+.langlinkstitle {
+	color: #004b87;
+	font-size:1.4rem;
+	margin-top: 8pt;
+	margin-bottom: 8pt;
+} 
+ul.langlinks {
+	margin:0pt;
+	padding-left:16pt;
+	padding-right:16pt;
+}
+ul.langlinks li, ul.langlinks li p {
+	display:inline;
+	font-size:1.25rem;
+	line-height: 1.75rem;
+}
+ul.langlinks li a {
+	color: #007CBD;
+}
+
+ul.langlinks li:before {
+ content: '\00a0\2022\00a0';
+}
+ul.langlinks li:first-child:before {
+ content: '';
+}
+
+/* Adjust nav size based on max-width media query */
+@media screen and (max-width: 1024px) {
+	.map {width: 40%;}
+}
+@media screen and (max-width: 700px) {
+	.map {width: 100%;}
+}
+/* END MENU STYLES */
+
+
+/* FIX NOTE SPACING DUE TO P */
+div.note > p {
+	margin-top: 0px;
+}
+
+div.caution {
+	margin-top: 0px;
+}
+
+span.emphasis {
+	font-weight: 700;
+}
+
+dt {
+	font-weight: bold;
+}
+
+/* Graphics */
+figure {
+	margin:1.4em;
+}
+img {
+	margin-top:0.3em;
+	margin-bottom:0.7em;
+	max-width:100%;
+	height:auto;
+}
+figcaption {
+	display:block;
+	font-style:normal;
+	text-align:left;
+}
+.legend {
+	font-size:0.9em;
+	line-height:1.2em;
+	text-indent:-1.75em;
+	margin-left:1.75em;
+	margin-bottom:0.7em;
+}
+
+/* TABLE STYLES  */
+table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+table, th, td {
+	border: 1px solid black;
+}
+th, td {
+	padding: 2px 5px 0 5px;
+}
+th {
+	background-color: lightgray;
+	vertical-align: bottom;
+}
+td {
+	vertical-align: top;
+}
+td.hasimg {
+	min-width:50px;
+}
+
+.tablenoborder table, .tablenoborder th, .tablenoborder td {
+                border: none;
+}
+
+/* Set spacing for elements inside table cell */
+td p, th p {
+	margin-top:0;
+	margin-bottom:0.7em;
+}
+td ol, td ul {
+	padding-left:2.1em;
+}
+td ol, td ul, td li, td li > p {
+	margin-top:0.4em;
+	margin-bottom:0.4em;
+}
+td p + p {
+	margin-top:0.7em;
+}
+td div.note {
+	margin-bottom:0.4em;
+}
+td *:first-of-type {
+	margin-top: 0;
+}
+td *:last-of-type {
+	margin-bottom: 0.4em;
+}
+td img, th img {
+	margin:0;
+	padding:2px 0 0 0;
+	min-width:24px;
+}
+img.inline {
+	display:inline-block;
+	height:1.1em;
+	min-width:1em;
+	width:auto;
+	position: relative;
+	vertical-align:text-bottom;
+	top: -0.05em;
+	margin:0;
+}
+
+/* Set vertical align in table cell based on the attribute values in the XML source */
+th.vtop {
+	vertical-align: top;
+}
+th.vmid, td.vmid {
+	vertical-align: middle;
+}
+td.vbot {
+	vertical-align: bottom;
+}
+
+
+.unresolved {
+	background-color: skyblue;
+}
+.noTemplate {
+	background-color: yellow;
+}
+.base {
+	background-color: #ffffff;
+}
+/* Add space for top level topics */
+.nested0 {
+	margin-top: 1em;
+}
+/* div with class=p is used for paragraphs that contain blocks, to keep the XHTML valid */
+.p {
+	margin-top: 1em;
+}
+
+
+/* Default of italics to set apart figure captions */
+.figcap {
+	font-style: italic;
+}
+.figdesc {
+	font-style: normal;
+}
+/* Use @frame to create frames on figures */
+.figborder {
+	border-style: solid;
+	padding-left: 3px;
+	border-width: 2px;
+	padding-right: 3px;
+	margin-top: 1em;
+	border-color: Silver;
+}
+.figsides {
+	border-left: 2px solid;
+	padding-left: 3px;
+	border-right: 2px solid;
+	padding-right: 3px;
+	margin-top: 1em;
+	border-color: Silver;
+}
+.figtop {
+	border-top: 2px solid;
+	margin-top: 1em;
+	border-color: Silver;
+}
+.figbottom {
+	border-bottom: 2px solid;
+	border-color: Silver;
+}
+.figtopbot {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	margin-top: 1em;
+	border-color: Silver;
+}
+/* Most link groups are created with <div>. Ensure they have space before and after. */
+.ullinks {
+	list-style-type: none;
+	font-family: 'Effra', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+.ulchildlink {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.olchildlink {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.linklist {
+	margin-bottom: 1em;
+}
+.linklistwithchild {
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+.sublinklist {
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+.relconcepts {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.reltasks {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.relref {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.relinfo {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.breadcrumb {
+	font-size: smaller;
+	margin-bottom: 1em;
+}
+dt.prereq {
+	margin-left: 20px;
+}
+/* Set heading sizes, getting smaller for deeper nesting */
+.subtopictitle {
+	margin-top: 1rem;
+	font-size: 1.05rem;
+	font-weight: bold;
+}
+
+
+.topictitle1 {
+	padding: 1rem;
+	margin: 0 !important;
+	background: #004b87;
+	font-family: 'Effra', sans-serif;
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: #ffffff;
+}
+
+h1[class="title topictitle1"] > a {
+	color: #ffffff;
+}
+
+.topictitle2 {
+	margin-top: 8pt;
+	margin-bottom: 8pt;
+	font-size: 1.3rem;
+}
+.topictitle3 {
+	margin-top: 1pc;
+	margin-bottom: .17em;
+	font-size: 1.17em;
+	font-weight: bold;
+}
+.topictitle4 {
+	margin-top: .83em;
+	font-size: 1.17em;
+	font-weight: bold;
+}
+.topictitle5 {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+.topictitle6 {
+	font-size: 1.17em;
+	font-style: italic;
+}
+.sectiontitle {
+	margin-top: 1em;
+	margin-bottom: 0;
+	color: black;
+	font-size: 1.17em;
+	font-weight: bold;
+}
+.section {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.example {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+div.tasklabel {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h2.tasklabel,
+h3.tasklabel,
+h4.tasklabel,
+h5.tasklabel,
+h6.tasklabel {
+	font-size: 100%;
+}
+/* All note formats have the same default presentation */
+.note {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.note > img {
+   display: block;
+}
+.notetitle {
+	font-weight: bold;
+}
+.notelisttitle {
+	font-weight: bold;
+}
+.tip {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.tiptitle {
+	font-weight: bold;
+}
+.fastpath {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.fastpathtitle {
+	font-weight: bold;
+}
+.important {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.importanttitle {
+	font-weight: bold;
+}
+.remember {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.remembertitle {
+	font-weight: bold;
+}
+.restriction {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.restrictiontitle {
+	font-weight: bold;
+}
+.attention {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.attentiontitle {
+	font-weight: bold;
+}
+.dangertitle {
+	font-weight: bold;
+}
+.danger {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.cautiontitle {
+	font-weight: bold;
+}
+.caution {
+	margin-bottom: 1em;
+}
+.warning {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.warningtitle {
+	font-weight: bold;
+}
+/* Simple lists do not get a bullet */
+ul.simple {
+	list-style-type: none;
+}
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol {
+	font-weight: bold;
+}
+/* Various basic phrase styles */
+.bold {
+	font-weight: bold;
+}
+.boldItalic {
+	font-weight: bold;
+	font-style: italic;
+}
+.center {
+	text-align:center;
+}
+.right {
+	text-align:right;
+}
+.italic {
+	font-style: italic;
+}
+.underlined {
+	text-decoration: underline;
+}
+.uicontrol {
+	font-weight: bold;
+}
+.wintitle {
+	font-weight: bold;
+}
+
+.fnote{
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+.parmname {
+	font-weight: bold;
+}
+.kwd {
+	font-weight: bold;
+}
+.defkwd {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.var {
+	font-style: italic;
+}
+.shortcut {
+	text-decoration: underline;
+}
+/* Default of bold for definition list terms */
+.dlterm {
+	font-weight: bold;
+	margin-top: .3em;
+}
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand {
+	font-weight: bold;
+	margin-top: 1em;
+}
+*[compact="yes"] > li {
+	margin-top: 0;
+}
+*[compact="no"] > li {
+	margin-top: .53em;
+}
+.liexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.sliexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.dlexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.ddexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.stepexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.substepexpand {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/* Align images based on @align on topic/image */
+div.imageleft {
+	text-align: left;
+}
+div.imagecenter {
+	text-align: center;
+}
+div.imageright {
+	text-align: right;
+}
+div.imagejustify {
+	text-align: justify;
+}
+/* The cell border can be turned on with
+   {border-right:solid}
+   This value creates a very thick border in Firefox (does not match other tables)
+
+   Firefox works with
+   {border-right:solid 1pt}
+   but this causes a barely visible line in IE */
+.cellrowborder {
+  border-left: none;
+  border-top: none;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+}
+.row-nocellborder {
+  border-left: none;
+  border-top: none;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+}
+.cell-norowborder {
+  border-top: none;
+  border-left: none;
+  border-bottom: hidden;
+  border-right: solid 1px;
+}
+.nocellnorowborder {
+  border: none;
+  border-right: hidden;
+  border-bottom: hidden;
+}
+pre.screen {
+  padding: 5px 5px 5px 5px;
+  border: outset;
+  background-color: #CCCCCC;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  white-space: pre;
+}
+span.filepath,
+samp.codeph,
+pre.codeblock {
+  font-family: monospace;
+}
+img.alertsymbol{
+	display:inline-block;
+	height:1.4rem;
+	width:auto;
+	vertical-align:baseline;
+	margin:0;
+}
+/* xtm-marker */
+.xtm-leverage {
+	background-color: #DFDFDF;
+}
+.xtm-match-rate {
+	background-color: #FED6DD;
+}
+.xtm-status {
+	background-color: #FFD000;
+}
+
+/* Navigation Bar, Results Panel, TOC Panel, TOC button */
+.navbar {
+	display: flex;
+	background-color: #001E46;
+	margin: 0;
+	padding: 10px;
+}
+.navbar table {
+	max-width: 800px;
+	width: 100%;
+}
+.navbar table, .navbar tr, .navbar td {
+	vertical-align: top; 
+	border-style: none;
+	margin:0;
+}
+.navbar td, .navbar th {
+	padding: 0;
+}
+.navbar td * {
+	margin-bottom: 0;
+}
+.navbar td img {
+	padding:0;
+}
+.navicon {
+	display: inline-block;
+	margin-left:0px;
+	margin-right:0px;
+	height: 30px;
+	width: 30px;	
+}
+.navicon img {
+	height: 30px;
+	width: 30px;
+}
+
+#helpsearch {
+	margin: 0px;
+	padding: 0px;
+	text-indent: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	border-style: none;
+}
+#searchbutton {
+	display: inline-block;
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	background-color: #CCCCCC;
+}
+
+#clearbutton {
+	display: none;
+	vertical-alignment: middle;
+	width: 24px;
+	height: 24px;
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+
+.formwrapper {
+	display: flex;
+	min-width: 160px;
+	width: 100%;
+	vertical-alignment: middle;
+	background-color: #FFFFFF;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px
+	padding-bottom: 5px;
+	margin-right: 0px;
+	height: 30px;
+}
+#tocbuttoncell {
+	width: 50px;
+	min-width: 50px;
+	max-width: 50px;
+	text-align: left;
+	padding-left:8px;
+}
+
+#previouslinkcell {
+	width: 65px;
+	min-width: 40px;
+	max-width: 65px;
+	text-align: center;
+	padding-left: 10px;
+}
+#nextlinkcell {
+	width: 65px;
+	min-width: 40px;
+	max-width: 65px;
+	text-align: center;
+}	
+#resultpanel {
+	display: none;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 80%; 
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #FFFFFF;
+	padding: 0 1rem 0 1rem;
+	box-shadow: 3px 0px 6px 0px #00000099;
+	min-height: 180px;
+}
+[dir="rtl"] #resultpanel {
+	display: none;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	left: auto;
+	width: 80%; 
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #FFFFFF;
+	padding: 0 1rem 0 1rem;
+	box-shadow: -3px 0px 6px 0px #00000099;
+	min-height: 180px;
+}
+#resultpanel ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#resultpanel ul li {
+	margin-bottom: 25px;
+}	
+#resultpanel ul li p {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+#resultpanel ul li p a {
+	text-decoration: none;
+	color: #0085CA;
+	font-size: larger;
+}
+#resultpanel > center {
+	margin: 0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}	
+
+#toc {
+	margin: 0;
+}
+#tocpanel {
+	display: none;
+	background-color: #FFFFFF;
+	width: 80%;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow: 3px 0px 6px 0px #00000099;
+}
+
+[dir="rtl"] #tocpanel {
+	display: none;
+	background-color: #FFFFFF;
+	width: 80%;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	left: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	box-shadow: -3px 0px 6px 0px #00000099;
+}
+
+#tocpanel > h1.center{
+	display: none;
+}
+
+
+#tocbutton_selected {
+	background-color: #7dc4ee99;
+	box-shadow: 0px 0px 4px 3px #7dc4ee99;
+}
+

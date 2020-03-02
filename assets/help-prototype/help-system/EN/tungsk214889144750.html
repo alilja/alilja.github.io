@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="503357-035">
+      <link href="../css/AppHelp.css" rel="stylesheet" type="text/css">
+<script src="../css/jquery-2.2.2.min.js"></script>	  
+<script src="../css/fuse.js"></script>
+<script src="../css/navAccordion.js"></script>	
+<script src="searchindex.js"></script>
+<script src="../css/buildnavbar.js"></script><title>Program data collection preferences</title>
+   </head>
+   <body>
+      <div id="shell">
+         <h1 class="title topictitle1"><a id="tungsk214889144750"></a>Program data collection preferences
+         </h1>
+         <p class="shortdesc">To control how the implantable device collects and transmits data, program the data
+            collection preferences:
+         </p>
+         <ol>
+            <li id="tillmj215234541870">
+               <p>Tap&nbsp;<img src="../images/1535132856JM-001.svg" class="inline" alt="menu">, then tap <span class="menucascade"><span class="literal uicontrol">PARAMETERS</span>&nbsp;&gt; <span class="literal uicontrol">Data Collection Setup…</span></span>.
+               </p>
+            </li>
+            <li id="tillmj215234541872">
+               <p>Configure the following options.</p>
+               <div class="note note"><span class="notetitle">Note: </span><p>Data collection is automatic and you cannot turn it off.</p>
+               </div>
+               <div>
+                  <table>
+                     <colgroup>
+                        <col>
+                        <col>
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th>Option</th>
+                           <th>Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><span class="literal uiref">LECG SOURCE</span></td>
+                           <td>
+                              <p>Allows you to select the source for the Leadless ECG (LECG) waveform that appears
+                                 on the LECG channel.
+                              </p>
+                              <p>Leadless ECG is an approximation of a surface ECG signal through the <span class="literal uicontrol">Can to SVC</span> source and is available only when an SVC coil is present. You can also choose to
+                                 display the waveform from the <span class="literal uicontrol">RVcoil to Aring</span> source or the <span class="literal uicontrol">Can to Aring</span> source on the LECG channel.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">EGM SOURCE</span></td>
+                           <td>
+                              <p>For each EGM channel, allows you to select the source electrodes that the implantable
+                                 device uses to record EGM signals.
+                              </p>
+                              <p>The <span class="literal uiref">EGM SOURCE</span> parameters control the signal that appears on the Live Rhythm Monitor.
+                              </p>
+                              <div class="note note"><span class="notetitle">Note: </span><p>The cardiac interval measurements of the implantable device are based on the signals
+                                    sensed through the programmed sensing polarity (not the stored diagnostic EGM). Your
+                                    EGM source selection does not affect tachyarrhythmia interval criteria, synchronization,
+                                    or therapy.
+                                 </p>
+                              </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">LECG RANGE</span> and <span class="literal uiref">EGM RANGE</span></td>
+                           <td>
+                              <p>Allows you to select the range for the LECG channel and for each EGM channel. The
+                                 range affects the resolution of the EGM signal. The lower the setting, the higher
+                                 the resolution.
+                              </p>
+                              <p>When the signal is illegible or clipped, change the range selection.</p>
+                              <p>The <span class="literal uiref">LECG RANGE</span> and <span class="literal uiref">EGM RANGE</span> parameters control the signal that appears on the Live Rhythm Monitor.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Monitored</span></td>
+                           <td>
+                              <p>Allows you to select the 2 channels on which to store episode records.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Pre-arrhythmia EGM</span></td>
+                           <td>
+                              <p>Allows you to choose if you want to store the EGM data that the implantable device
+                                 collects before an episode begins.
+                              </p>
+                              <p>When the device is set to nominal parameters, it provides continuous <span class="literal uiref">pre-arrhythmia EGM</span> storage with minimal longevity impact. If the parameters for EGM storage or <span class="literal uiref">Sense Polarity</span> are changed, the device may be required to keep additional EGM circuitry enabled
+                                 at all times, which reduces device longevity. Refer to the reference manual for the
+                                 implanted device for more information about the operation of <span class="literal uiref">pre-arrhythmia EGM</span> storage.
+                              </p>
+                              <p>For single-chamber devices only: When you select <span class="literal uicontrol">On − 1 months</span> or <span class="literal uicontrol">On − 3 months</span>, the implantable device automatically turns off <span class="literal uiref">pre-arrhythmia EGM</span> storage when the time period expires.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Stored (Ventricular)</span><br>(Applies only to single chamber devices with AF diagnostics)
+                           </td>
+                           <td>
+                              <p>Allows you to select the 2 channels on which to store ventricular episode records.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Stored (Atrial)</span> <br>(Applies only to single chamber devices with AF diagnostics)
+                           </td>
+                           <td>
+                              <p>Displays the 2 channels on which to store atrial episode records.</p>
+                              <div class="note note"><span class="notetitle">Note: </span><p>The <span class="literal uicontrol">Stored (Ventricular)</span> and the <span class="literal uicontrol">Stored (Atrial)</span> parameters always share one channel.
+                                 </p>
+                              </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">V. Sensing Episodes…</span><br>(CRT-D devices only)
+                           </td>
+                           <td>
+                              <p>Allows you to select the thresholds that trigger the collection of ventricular sensing
+                                 episodes.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Device Date/Time…</span></td>
+                           <td>
+                              <p>Allows you to select the time zone offset from Coordinated Universal Time (UTC).</p>
+                              <ul>
+                                 <li>
+                                    <p><span class="literal uicontrol">Current Device Date/Time</span> – Displays the date and time that the implantable device currently uses.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p><span class="literal uicontrol">New Device Date/Time</span> – Displays the new date and time that the implantable device will use based on your
+                                       selection for <span class="literal uicontrol">Time Zone</span>.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p><span class="literal uicontrol">Time Zone</span> – Allows you to select the time zone offset to adjust the implantable device time.
+                                    </p>
+                                 </li>
+                              </ul>
+                              <div class="note note"><span class="notetitle">Note: </span><p>The implantable device app expresses time in the 24-hour format or in the 12-hour
+                                    format, depending on your tablet settings.
+                                 </p>
+                              </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Holter Telemetry Duration</span></td>
+                           <td>
+                              <p>Allows you to either enter the duration for Holter telemetry or to disable Holter
+                                 telemetry. When you enable Holter telemetry, the implantable device continuously transmits
+                                 EGM and marker data for the selected duration, regardless of the presence of the patient
+                                 connector.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><span class="literal uiref">Wireless Telemetry with Monitor</span></td>
+                           <td>
+                              <p>Allows you to turn the wireless telemetry for remote monitoring on and off.</p>
+                              <div class="note note"><span class="notetitle">Notes: </span><ul>
+                                    <li>
+                                       <p>You can use wireless telemetry for remote monitoring and Medtronic CareAlert Monitoring
+                                          (if available) only when <span class="literal uicontrol">Wireless Telemetry with Monitor</span> is programmed to <span class="literal uicontrol">On</span>.
+                                       </p>
+                                    </li>
+                                    <li>
+                                       <p>When important clinical management and system performance events occur between scheduled
+                                          patient sessions, a CareAlert notification is elicited when <span class="literal uicontrol">Wireless Telemetry with Monitor</span> is programmed to <span class="literal uicontrol">On</span>.
+                                       </p>
+                                    </li>
+                                    <li>
+                                       <p>When <span class="literal uicontrol">Wireless Telemetry with Monitor</span> is programmed to <span class="literal uicontrol">Off</span>, you are still able to use wireless telemetry with the device manager.
+                                       </p>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </li>
+            <li id="tillmj215234541873">
+               <p>Tap <span class="menucascade"><span class="literal uicontrol">OK</span>&nbsp;&gt; <span class="literal uicontrol">PROGRAM</span></span>.
+               </p>
+            </li>
+         </ol>
+         <nav class="related-links">
+            <div class="previouslink"><strong>Previous topic: </strong><a href="tungsk214889068180.html" title="Parameter sets are collections of parameter values.">Retrieve parameter sets</a></div>
+            <div class="nextlink"><strong>Next topic: </strong><a href="tungsk21489075178.html" title="Review the list of parameter changes that you made during the patient session:">View parameter changes</a></div>
+            <div class="linklist relinfo">
+               <div><a href="index.html">Contents</a></div>
+            </div>
+         </nav>
+         <h1 class="center">DRAFT</h1>
+      </div>
+   </body>
+</html>

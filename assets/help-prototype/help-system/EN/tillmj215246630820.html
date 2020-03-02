@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="503357-035">
+      <link href="../css/AppHelp.css" rel="stylesheet" type="text/css">
+<script src="../css/jquery-2.2.2.min.js"></script>	  
+<script src="../css/fuse.js"></script>
+<script src="../css/navAccordion.js"></script>	
+<script src="searchindex.js"></script>
+<script src="../css/buildnavbar.js"></script><title>Induce VF with T-Shock</title>
+   </head>
+   <body>
+      <div id="shell">
+         <h1 class="title topictitle1"><a id="tillmj215246630820"></a>Induce VF with T-Shock
+         </h1>
+         <p class="shortdesc">Use T-Shock induction to induce VF by delivering a series of VOO pacing pulses to
+            make the T-wave timing more predictable, then simultaneously delivering a shock with
+            a T-wave. You can specify the characteristics of the pacing pulses and the high-voltage
+            shock, and you can implement a delay between the final pacing pulse and the shock.
+         </p>
+         <div class="note warning"><span class="warningtitle">Warning: </span><p>Monitor the patient carefully when using an EP study function. Have an external defibrillator
+               ready for use when inducing any tachyarrhythmia. An induced tachyarrhythmia may degenerate
+               to ventricular fibrillation.
+            </p>
+         </div>
+         <div class="note note"><span class="notetitle">Note: </span><p>If telemetry between the implantable device app and the implanted device is paused
+               or lost during the test, the implanted device continues the test. When the test completes,
+               the implanted device parameters revert to permanently programmed values.
+            </p>
+         </div>
+         <ol>
+            <li id="tillmj215246629500">
+               <p>Ensure that telemetry is established between the implanted device and the patient
+                  connector.
+               </p>
+               <div class="note note"><span class="notetitle">Note: </span><p>Successful interrogation or programming confirms proper communication between the
+                     implanted device and the patient connector.
+                  </p>
+               </div>
+            </li>
+            <li id="tillmj215246629501">
+               <p>Tap&nbsp;<img src="../images/1535132856JM-001.svg" class="inline" alt="menu">, then tap <span class="menucascade"><span class="literal uicontrol">TESTS</span>&nbsp;&gt; <span class="literal uicontrol">EP STUDY</span>&nbsp;&gt; <span class="literal uicontrol">T-Shock</span></span>.
+               </p>
+            </li>
+            <li id="tillmj215246629503">
+               <p>Verify or change the value of the <span class="literal uicontrol">Chamber</span> field.
+               </p>
+            </li>
+            <li id="tillmj215246629504">
+               <p>Set up the test using the following options:</p>
+               <ul>
+                  <li>
+                     <p>To maintain automatic detection and therapy during the test, select the <span class="literal uicontrol">Resume at DELIVER</span> checkbox.
+                     </p>
+                  </li>
+                  <li>
+                     <p>To treat the induced episode with a manual therapy, clear the <span class="literal uicontrol">Resume at DELIVER</span> checkbox, then tap the <span class="literal uicontrol">SUSPEND</span> button to prevent automatic detection.
+                     </p>
+                  </li>
+               </ul>
+               <div class="note note"><span class="notetitle">Note: </span><p>You cannot deliver a T-Shock induction when there is a magnet over the device and
+                     the <span class="literal uicontrol">Resume at DELIVER</span> checkbox is selected. If an error message appears, remove the magnet or clear the
+                     <span class="literal uicontrol">Resume at DELIVER</span> checkbox.
+                  </p>
+               </div>
+            </li>
+            <li id="tillmj215246629505">
+               <p>Verify or change the displayed test values.</p>
+            </li>
+            <li id="tillmj21524666002">
+               <p>Tap <span class="literal uicontrol">ADJUST PERMANENT</span>.
+               </p>
+            </li>
+            <li id="tillmj21532125185">
+               <p>Program the following parameter values:</p>
+               <ol type="a">
+                  <li id="tillmj21532125495">
+                     <p>Tap the <span class="literal uicontrol">Energy</span> field for therapy <span class="literal uicontrol">RX1</span> and select a value that is 10&nbsp;J less than your final programmed value.
+                     </p>
+                  </li>
+                  <li id="tillmj21532125570">
+                     <p>For therapies <span class="literal uicontrol">RX2</span> through <span class="literal uicontrol">RX6</span>, select <span class="literal uicontrol">40&nbsp;J</span>.
+                     </p>
+                  </li>
+                  <li id="tillmj21532125743">
+                     <p>Tap the <span class="literal uicontrol">RV Sensitivity</span> field and select a value that results in an adequate safety margin for detecting
+                        VF. For a final programmed <span class="literal uicontrol">RV Sensitivity</span> of <span class="literal uicontrol">0.30&nbsp;mV</span>, you can usually set an adequate safety margin if you set the value to <span class="literal uicontrol">1.20&nbsp;mV</span> during testing.
+                     </p>
+                  </li>
+                  <li id="tillmj21532127860">
+                     <p>Set <span class="literal uicontrol">VF Enable</span> to <span class="literal uicontrol">On</span>.
+                     </p>
+                     <div class="note note"><span class="notetitle">Note: </span><p>When <span class="literal uicontrol">VF Enable</span> is programmed to <span class="literal uicontrol">On</span>, the AF/Afl, Sinus Tach, and Wavelet features are also programmed to <span class="literal uicontrol">On</span>.
+                        </p>
+                     </div>
+                  </li>
+                  <li id="tillmj215321282811">
+                     <p>Tap <span class="literal uicontrol">PROGRAM</span>, then tap <span class="literal uicontrol">CLOSE</span>.
+                     </p>
+                  </li>
+               </ol>
+            </li>
+            <li id="tillmj21524666185">
+               <p>Select the <span class="literal uicontrol">Enable</span> checkbox.
+               </p>
+               <div class="note note"><span class="notetitle">Note: </span><p>As a safety measure, the <span class="literal uicontrol">DELIVER T-Shock</span> button is disabled until you select the <span class="literal uicontrol">Enable</span> checkbox.
+                  </p>
+               </div>
+            </li>
+            <li id="tillmj215246629506">
+               <p>Tap <span class="literal uicontrol">DELIVER T-Shock</span>.
+               </p>
+               <div class="note note"><span class="notetitle">Notes: </span><ul>
+                     <li>
+                        <p>To abort a therapy, tap <span class="literal uicontrol">ABORT</span>.
+                        </p>
+                     </li>
+                     <li>
+                        <p>If the energy on the capacitors is higher than the energy level you selected, the
+                           implantable device app displays a warning when you tap <span class="literal uicontrol">DELIVER T-Shock</span>. To clear this warning, tap <span class="literal uicontrol">DUMP Capacitors</span> or <span class="literal uicontrol">CANCEL</span>.
+                        </p>
+                     </li>
+                     <li>
+                        <p>To resume detection after a manual therapy or after an induction that was delivered
+                           with the <span class="literal uicontrol">Resume at DELIVER</span> checkbox cleared, tap <span class="literal uicontrol">RESUME</span>.
+                        </p>
+                     </li>
+                     <li>
+                        <p>After delivering a T-Shock induction, the implanted device automatically disables
+                           <span class="literal uiref">ATP Before Charging</span> and <span class="literal uiref">ATP During Charging</span> therapies for 30&nbsp;s. Temporarily disabling these ATP therapies prevents them from
+                           interfering with defibrillation threshold testing.
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </li>
+            <li id="tillmj21524668794">
+               <p>To view the data, tap <span class="literal uicontrol">RETRIEVE DATA</span>.
+               </p>
+            </li>
+            <li id="tillmj21532128340">
+               <p>To create a report, tap the PDF button.</p>
+            </li>
+         </ol>
+         <div class="note warning"><span class="warningtitle">Warning: </span><p>To prevent inappropriate shocks, program <span class="literal uiref">VF DETECTION</span>, <span class="literal uiref">FVT DETECTION</span>, and <span class="literal uiref">VT DETECTION</span> to <span class="literal uiref">Off</span> before closing the surgical pocket.
+            </p>
+         </div>
+         <nav class="related-links">
+            <div class="previouslink"><strong>Previous topic: </strong><a href="tillmj215227053610.html" title="You can use electrophysiology study (EP Study) test functions to induce arrhythmias in order to evaluate the effectiveness of tachyarrhythmia therapies.">About arrhythmia inductions</a></div>
+            <div class="nextlink"><strong>Next topic: </strong><a href="tillmj215246855170.html" title="Use ventricular 50&nbsp;Hz Burst to induce VF by delivering a rapid burst of VOO pacing pulses to the ventricle.">Induce VF with 50&nbsp;Hz Burst</a></div>
+            <div class="linklist relinfo">
+               <div><a href="index.html">Contents</a></div>
+            </div>
+         </nav>
+         <h1 class="center">DRAFT</h1>
+      </div>
+   </body>
+</html>

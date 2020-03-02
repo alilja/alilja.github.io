@@ -1,0 +1,116 @@
+<html>
+<head>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #iframeHolderForHelpIndexPage {
+            height: 100%;
+            width: 100%;
+            background-color: #001e46;
+            color: #fff;
+            float: left;
+        }
+
+        .HorizontalFlow {
+            width: 100%;
+			border-collapse: collapse;
+        }
+
+        .VerticalFlow {
+            height: 100%;
+        }
+
+        .PaddingWidth {
+            width: 0pt;
+        }
+
+        .PaddingHeight {
+            height: 25pt;
+        }
+
+        .PaddingLeft {
+            padding-left: 0pt;
+        }
+
+        .PaddingBottom {
+            padding-bottom: 25pt;
+        }
+
+        .ScrollableIFrame {
+            -webkit-overflow-scrolling:touch;
+            overflow-y:hidden;
+            overflow-x:hidden;
+            width:100%;
+            height: 100%;
+        }
+        .st1 {
+            fill:none;
+            stroke:#FFFFFF;
+            stroke-width:4 ;
+            stroke-miterlimit:10;
+        }
+
+        .st2 {
+            fill:#001e46;
+        }
+		
+		.HelpTitle {
+			color: #FFFFFF;
+			font-size: 14pt;
+			font-family: 'Effra', 'Arial', sans serif;
+			padding-left: 1rem;
+		}
+
+        iframe {
+            height: 100%;
+            width: 100%;
+            align-self: center;
+            background: none;
+            background-color: #ffffff;
+			border: none;
+        }
+
+            iframe::-webkit-scrollbar {
+                display: none;
+            }
+    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="iframeHolderForHelpIndexPage">
+        <table class="HorizontalFlow VerticalFlow">
+            <tbody>
+                <tr class="PaddingWidth">
+                    <td class="HorizontalFlow HelpTitle">HELP</td>
+                    <td class="PaddingWidth">
+                        <button id="button1" onclick="location.href = '&lt;application:CloseHelp xmlns:application=\&quot;http://schemas.medtronic.com/ProgrammerApplication.Application\&quot; /&gt;';" style="height:26pt;width:26pt;visibility:visible;text-align:center;color:#fff;border:0;font-size:20pt;  background-color: #001e46;padding: 0pt; outline: none">
+                          <svg height="26pt" width="26pt" xmlns="http://www.w3.org/2000/svg">
+                                <svg name="Miscellaneous.PopUpCloseX" preserveAspectRatio="xMinYMin" height="26pt" width="26pt" x="1.5pt" y="0pt" viewBox="0 0 44 50">
+                                    <rect x="0" y="0" width="44" height="50" class="st2"/>
+                                    <g>
+                                        <g>
+                                            <line x1="12.2" y1="14.5" x2="32.2" y2="34.5" class="st1"></line>
+                                            <line x1="32.2" y1="14.5" x2="12.2" y2="34.5" class="st1"></line>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="VerticalFlow">
+                    <td class="HorizontalFlow" colspan="2">
+                        <div class="ScrollableIFrame">
+                            <iframe src="index.html"></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

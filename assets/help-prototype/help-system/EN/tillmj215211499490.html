@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="503357-035">
+      <link href="../css/AppHelp.css" rel="stylesheet" type="text/css">
+<script src="../css/jquery-2.2.2.min.js"></script>	  
+<script src="../css/fuse.js"></script>
+<script src="../css/navAccordion.js"></script>	
+<script src="searchindex.js"></script>
+<script src="../css/buildnavbar.js"></script><title>Perform a CardioSync Optimization Test (CRT-D devices only)</title>
+   </head>
+   <body>
+      <div id="shell">
+         <h1 class="title topictitle1"><a id="tillmj215211499490"></a>Perform a CardioSync Optimization Test (CRT-D devices only)
+         </h1>
+         <p class="shortdesc">To measure the patient’s intrinsic AV intervals and the waveform widths of the P-wave
+            and the QRS complex, use the CardioSync Optimization Test. Based on these measurements,
+            the test provides optimized values for CRT parameters, including V. Pacing configuration,
+            V-V Pace Delay, Paced AV, and Sensed AV.
+         </p>
+         <p>Test operation depends on the AdaptivCRT and V-V Pace Delay settings. If the AdaptivCRT
+            parameter is programmed to an adaptive setting, and if the V-V Pace Delay is programmed
+            to Auto, the CardioSync Optimization Test automatically programs the CRT parameters
+            based on the test measurements. If the V-V Pace Delay is not programmed to Auto, the
+            values resulting from the CardioSync Optimization Test for the V-V Pace Delay are
+            set as pending values. The CardioSync Optimization Test automatically programs the
+            remaining CRT parameters based on the test measurement.
+         </p>
+         <div class="note note"><span class="notetitle">Notes: </span><ul>
+               <li>
+                  <p>The CardioSync Optimization Test is available if the permanently programmed pacing
+                     mode is DDD or DDDR.
+                  </p>
+               </li>
+               <li>
+                  <p>The Pacing Lower Rate must be faster than the Sensing Lower Rate. The default value
+                     for the Sensing Lower Rate is 40&nbsp;min<sup>–1</sup>, and the default value for the Pacing Lower Rate is 80&nbsp;min<sup>–1</sup>. These default values are suitable for most patients.
+                  </p>
+               </li>
+               <li>
+                  <p>If telemetry between the implantable device app and the implanted device is paused
+                     or lost during a CardioSync Optimization Test, the implanted device continues to measure
+                     CRT values. When the test completes, the implanted device parameters revert to permanently
+                     programmed values.
+                  </p>
+               </li>
+               <li>
+                  <p>During system tests, tachyarrhythmia detection is suspended.</p>
+               </li>
+            </ul>
+         </div>
+         <ol>
+            <li id="tillmj215234803490">
+               <p>Tap&nbsp;<img src="../images/1535132856JM-001.svg" class="inline" alt="menu">, then tap <span class="menucascade"><span class="literal uicontrol">TESTS</span>&nbsp;&gt; <span class="literal uicontrol">CardioSync</span></span>.
+               </p>
+               <div class="note note"><span class="notetitle">Note: </span><p>If the AdaptivCRT parameter is programmed to an adaptive setting, a message appears
+                     with a reminder that running the test optimizes and programs AdaptivCRT parameters
+                     automatically. To dismiss this message, tap <span class="literal uicontrol">OK</span>.
+                  </p>
+               </div>
+            </li>
+            <li id="tillmj215234803491">
+               <p>Verify or change the test values for <span class="literal uicontrol">Sensing Lower Rate</span> and <span class="literal uicontrol">Pacing Lower Rate</span>.
+               </p>
+               <div class="note note"><span class="notetitle">Notes: </span><ul>
+                     <li>
+                        <p>The Sensing Lower Rate value should be based on the patient’s intrinsic rate to allow
+                           atrial sensed events to occur while considering the patient’s pacing needs.
+                        </p>
+                     </li>
+                     <li>
+                        <p>The Pacing Lower Rate value should be based on the patient’s intrinsic rate to cause
+                           atrial paced events to occur. This adjustment may not be possible for intrinsic rates
+                           of 100&nbsp;min<sup>–1</sup> or greater.
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </li>
+            <li id="tillmj215234803492">
+               <p>Tap <span class="literal uicontrol">START Test</span>.
+               </p>
+               <p>When the CardioSync Optimization Test is completed, the <span class="literal wintitle">CardioSync OPTIMIZATION - RESULTS</span> window appears automatically.
+               </p>
+            </li>
+            <li id="tillmj215234803493">
+               <p>If pending values appear in the <span class="literal uicontrol">OPTIMIZED</span> column, use one of the following options:
+               </p>
+               <ul>
+                  <li>
+                     <p>To program the pending optimized values into the implanted device, tap <span class="literal uicontrol">PROGRAM</span>.
+                     </p>
+                  </li>
+                  <li>
+                     <p>To reset the pending values to their initial values, tap <span class="literal uicontrol">UNDO PENDING</span>.
+                     </p>
+                  </li>
+               </ul>
+            </li>
+            <li id="tillmj21523482208">
+               <p>To view the test strip from the most recent pacing threshold test, tap the <span class="literal uicontrol">Test Strip</span> icon.
+               </p>
+            </li>
+            <li id="tillmj21527734432">
+               <p>To generate a report, tap the PDF button.</p>
+            </li>
+         </ol>
+         <nav class="related-links">
+            <div class="previouslink"><strong>Previous topic: </strong><a href="tillmj215211479790.html" title="To determine the patient’s left ventricular (LV) capture thresholds and pacing impedances, use the VectorExpress LV Automated Test.">Perform a VectorExpress LV Automated Test (CRT-D devices only)</a></div>
+            <div class="nextlink"><strong>Next topic: </strong><a href="tillmj21521744325.html" title="The Charge/Dump Test allows you to test the charge time of the implanted device capacitors and dump any remaining charge.">Perform a Charge/Dump Test</a></div>
+            <div class="linklist relinfo">
+               <div><a href="index.html">Contents</a></div>
+            </div>
+         </nav>
+         <h1 class="center">DRAFT</h1>
+      </div>
+   </body>
+</html>
