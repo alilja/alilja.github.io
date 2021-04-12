@@ -125,7 +125,7 @@ header#nav {
         margin-right: 1.64em;
     }
 
-    a:hover {
+    a:hover, a:active {
         background: $accent_color;
     }
 
@@ -154,7 +154,7 @@ footer {
         text-decoration: none;
     }
 
-    a:hover {
+    a:hover, a:active {
         background: $accent_color;
     }
 }
@@ -361,7 +361,7 @@ h1 {
         text-decoration: none;
     }
 
-    a:hover {
+    a:hover, a:active {
         background: $accent_color;
     }
 
