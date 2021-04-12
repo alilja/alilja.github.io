@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+	<header id="nav">
+    	<a href="/">Andrew Lilja</a>
+    	<a href="/#list">Work</a>
+    	<a href="/contact/">Contact</a>
+	</header>
+<div id="main">{{ content }}</div>
+<footer>
+	&copy; {{ site.time | date: '%Y' }} &bull; <script type="text/javascript">
+        <!--
+        h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#110;&#100;&#114;&#x65;&#x77;&#46;&#108;&#x69;&#108;&#106;&#x61;';e=n+a+h;
+        document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">Email<\/'+'a'+'>');
+        // -->
+        </script><noscript>andrew dot lilja at google mail</noscript></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div id="hero">
+    <img src="/assets/images/me.png">
+    <article>Andrew Lilja is a user experience consultant specializing in medical device human factors and user research. He currently works at <a href="http://www.gomolldesign.com/">Gomoll Research and Design</a>, based out of the Minneapolis office.</article>
+</div>
+
+{%- if site.posts.size > 0 -%}
+<div id="list">
+    <header>
+        <date>Date</date>
+        <section class="title">Project Name</section>
+        <section class="tags">Tags</section>
+        <section class="teaser">Summary</section>
+    </header>
+    {%- for post in site.categories.recent -%}
+        <a href="{{ post.url }}">
+            <date>{{ post.date-range }}</date>
+            <section class="title"><h1>{{ post.title | escape }}</h1></section>
+            <section class="tags">{%- for category in post.categories -%}
+                {%- if category == "case" -%}Case Study<br>{%- endif -%}
+                {%- if category == "med" -%}Medical Devices<br>{%- endif -%}
+                {%- if category == "teach" -%}Teaching<br>{%- endif -%}
+                {%- endfor -%}
+            </section>
+            <section class="teaser">{{ post.teaser }}</section>
+        </a>
+    {%- endfor -%}
+</div>
+{%- endif -%}
