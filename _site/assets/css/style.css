@@ -41,14 +41,14 @@ a:hover { background: none; }
 
 header#nav { margin: 1.64rem 0; padding-bottom: 1.64em; border-bottom: 1px solid; display: flex; text-transform: uppercase; }
 header#nav a { color: #16050d; background: none; transition: background 0.2s ease; text-decoration: none; margin-right: 1.64em; }
-header#nav a:hover { background: #ffc0da; }
+header#nav a:hover, header#nav a:active { background: #ffc0da; }
 header#nav a:last-child { margin-left: auto; margin-right: 0; }
 
 #main { padding-bottom: 6.56rem; }
 
 footer { position: absolute; bottom: 0%; height: 4.92rem; margin-top: -4.92rem; padding-top: 1.64rem; border-top: 1px solid; }
 footer a { color: #16050d; background: none; transition: background 0.2s ease; text-decoration: none; }
-footer a:hover { background: #ffc0da; }
+footer a:hover, footer a:active { background: #ffc0da; }
 
 body { max-width: 1021px; margin: 0 auto; padding: 0 1.64rem; position: relative; min-height: 97vh; }
 
@@ -88,7 +88,7 @@ body { max-width: 1021px; margin: 0 auto; padding: 0 1.64rem; position: relative
   #hero article { display: block; margin-top: 1.64rem; width: 100%; padding-left: none; }
   #list header { display: none; }
   #list a { display: block; margin: -1.64rem; padding: 1.64rem; margin-bottom: 1em; color: #16050d; background: none; transition: background 0.5s ease; text-decoration: none; }
-  #list a:hover { background: #ffc0da; }
+  #list a:hover, #list a:active { background: #ffc0da; }
   #list date { text-transform: uppercase; }
   #list .title h1 { font-size: 2.143rem; line-height: 1.2; }
   #list .tags { display: none; }
