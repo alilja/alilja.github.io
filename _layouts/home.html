@@ -16,6 +16,7 @@ layout: default
         <section class="teaser">Summary</section>
     </header>
     {%- for post in site.categories.recent -%}
+        {%- unless post.categories contains "voyenture-time" -%}
         <a href="{{ post.url }}">
             <date>{{ post.date-range }}</date>
             <section class="title"><h1>{{ post.title | escape }}</h1></section>
@@ -27,6 +28,7 @@ layout: default
             </section>
             <section class="teaser">{{ post.teaser }}</section>
         </a>
+        {%- endunless -%}
     {%- endfor -%}
 </div>
 {%- endif -%}
