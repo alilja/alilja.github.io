@@ -3,9 +3,10 @@ layout: post
 title:	Patient-Facing UI Development
 date:   2015-11-18 10:22:34 -0600
 date-range: 2015–2017
-categories: med case nda
+categories: med case
 teaser: My first major UX project was to conduct research and lead interaction design development on a medical device's patient-face user experience.
 front: 1
+nda: 1
 --- 
 
 In 2015, I was brought onboard at a large medical device company to help them design their next-generation therapy controller used by patients. The company was replacing their outdated, custom hardware with off-the-shelf touchscreen devices, and needed all the functionality of their existing controller ported to their new touchscreen application. 

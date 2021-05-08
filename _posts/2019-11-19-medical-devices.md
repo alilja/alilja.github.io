@@ -6,9 +6,8 @@ date-range: 2015–Now
 categories: med
 teaser: In 2015, I began doing human factors research for medical devices. I fully support the entire process, from product inception through FDA submission and future updates.
 front: 1
+nda: 1
 ---
-
-*Unfortunately, all of my recent work is currently under NDA. I can provide specific details on request.*
 
 Since 2015, I've been working in medical devices. This highly regulated industry involves a broad range of skills and activities for UX professionals from user interviews and research to all steps of the design process to communication with internal and external groups. Because medical devices are a highly regulated industry, every step in the process is documented — any decision made without evidence is heavily scrutinized and may result in the regulatory bodies rejecting your product. All data must be recorded, all choices documented, and all UI designs rationalized.
 

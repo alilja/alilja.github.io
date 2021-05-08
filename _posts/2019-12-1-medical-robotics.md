@@ -6,6 +6,7 @@ date-range: 2019
 categories: med case
 teaser: A medical robotics company required a prototype for testing and sales. I built and maintained a fully interactive prototype in Axure.
 front: 1
+nda: 1
 --- 
 
 A medical robotics start-up approached Gomoll Research and Design about developing their next-generation cancer treatment system user interfaces. I worked with a small team of Gomoll coworkers to translate existing wireframes and UI concepts into high-fidelity, interactive prototpes in Axure[^axure]. Though the design and most of the interactions were already defined, I was responsible for ensuring that the prototypes worked correctly and robustly, identifying any issues in interaction design, and deploying them for formative testing.

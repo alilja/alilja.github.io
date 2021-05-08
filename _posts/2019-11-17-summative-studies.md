@@ -6,6 +6,7 @@ date-range: 2017–Now
 categories: med
 teaser: A substantial portion of my work involves validation, and the nature of the products I work on require me to develop, execute, and submit summative studies for all updates. 
 front: 1
+nda: 1
 ---
 
 A large medical device manufacturer needed to replace an aging fleet of clinician-operated tools used to program lifesaving implantable devices. The existing tool was no longer being manufactured, and the company wanted to move away from custom-made hardware towards more flexible, off-the-shelf devices like the iPad. The new programmer needed to work with all currently implanted devices, and be future-proofed to work with new devices with an unknown range of features and improvements.

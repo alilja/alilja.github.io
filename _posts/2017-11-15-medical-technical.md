@@ -6,6 +6,7 @@ date-range: 2017
 categories: med case
 teaser: I was brought in at the last minute to learn how a newly developed medical device worked and write a manual with only development documents as guidance.
 front: 1
+nda: 1
 ---
 
 A therapy is useless if the patient can't use it — and despite this, many medical manuals are complex and hard to understand. User populations have a [wide range of proficiency and knowledge](https://www.nngroup.com/articles/computer-skill-levels/) with computers, so documentation must be clear and concise with little room for misinterpretation — what counts as a small change for one patient may be catastrophic for another. 
