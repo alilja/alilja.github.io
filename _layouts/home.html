@@ -15,19 +15,21 @@ layout: default
         <section class="tags">Tags</section>
         <section class="teaser">Summary</section>
     </header>
-    {%- for post in site.categories.recent -%}
+    {%- for post in site.posts -%}
         {%- unless post.categories contains "voyenture-time" -%}
+        {%- if post.front == 1 -%}
         <a href="{{ post.url }}">
             <date>{{ post.date-range }}</date>
             <section class="title"><h1>{{ post.title | escape }}</h1></section>
             <section class="tags">{%- for category in post.categories -%}
                 {%- if category == "case" -%}Case Study<br>{%- endif -%}
                 {%- if category == "med" -%}Medical Devices<br>{%- endif -%}
-                {%- if category == "teach" -%}Teaching<br>{%- endif -%}
+                {%- if category == "teaching" -%}Teaching<br>{%- endif -%}
                 {%- endfor -%}
             </section>
             <section class="teaser">{{ post.teaser }}</section>
         </a>
+        {%- endif -%}
         {%- endunless -%}
     {%- endfor -%}
 </div>

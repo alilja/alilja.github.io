@@ -3,8 +3,9 @@ layout: post
 title:	Medical Device Human Factors
 date:   2019-12-5 10:22:34 -0600
 date-range: 2015–Now
-categories: recent med
+categories: med
 teaser: In 2015, I began doing human factors research for medical devices. I fully support the entire process, from product inception through FDA submission and future updates.
+front: 1
 ---
 
 *Unfortunately, all of my recent work is currently under NDA. I can provide specific details on request.*
